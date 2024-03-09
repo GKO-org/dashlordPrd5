@@ -1,0 +1,2 @@
+"id","fqdn/ip","port","severity","finding","cve","cwe"
+"scanProblem","impots.gouv.frverifavis2-api/","443","FATAL","No IPv4/IPv6 address(es) for 'impots.gouv.frverifavis2-api' available","",""
