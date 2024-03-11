@@ -24,6 +24,21 @@ tools:
   budget_page: true
   betagouv: true
 urls:
+  - url: https://gard.gouv.fr
+  - url: https://garde-nationale.gouv.fr
+  - url: https://geoportail.gouv.fr
+  - url: https://geoportail-urbanisme.gouv.fr
+  - url: https://georisques.gouv.fr
+  - url: https://gers.gouv.fr
+  - url: https://gironde.gouv.fr
+  - url: https://guadeloupe.gouv.fr
+  - url: https://guyane.gouv.fr
+  - url: https://handicap.gouv.fr
+  - url: https://harkis.gouv.fr
+  - url: https://haut-conseil-egalite.gouv.fr
+  - url: https://haute-corse.gouv.fr
+  - url: https://haute-garonne.gouv.fr
+  - url: https://haute-loire.gouv.fr
   - url: https://haute-marne.gouv.fr
   - url: https://hautes-alpes.gouv.fr
   - url: https://haute-saone.gouv.fr
@@ -39,28 +54,3 @@ urls:
   - url: https://ih2ef.gouv.fr
   - url: https://ille-et-vilaine.gouv.fr
   - url: https://imagesdefense.gouv.fr
-  - url: https://immobilier-etat.gouv.fr
-  - url: https://impots.gouv.fr
-  - url: https://impots.gouv.frverifavis2-api/front
-  - url: https://inao.gouv.fr
-  - url: https://indre.gouv.fr
-  - url: https://indre-et-loire.gouv.fr
-  - url: https://info-financiere.fr
-  - url: https://premar-atlantique.gouv.fr
-  - url: https://premar-manche.gouv.fr
-  - url: https://premar-mediterranee.gouv.fr
-  - url: https://intranah.anah.fr
-  - url: https://ira-metz.gouv.fr
-  - url: https://isere.gouv.fr
-  - url: https://ivg.gouv.fr
-  - url: https://jeprotegemonenfant.gouv.fr
-  - url: https://jeunes.gouv.fr
-  - url: https://jeunesse.gouv.fr
-  - url: https://jeveuxaider.gouv.fr
-  - url: https://journal-officiel.gouv.fr
-  - url: https://jura.gouv.fr
-  - url: https://justice.gouv.fr
-  - url: https://kiosque.communication.gouv.fr
-  - url: https://kiosque-sig.gouv.fr
-  - url: https://lafrenchtech.gouv.fr
-  - url: https://landes.gouv.fr
