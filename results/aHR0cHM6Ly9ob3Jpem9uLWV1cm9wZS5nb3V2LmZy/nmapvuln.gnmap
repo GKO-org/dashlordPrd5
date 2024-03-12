@@ -1,4 +1,1 @@
-# Nmap 7.92 scan initiated Mon Mar 11 19:00:18 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln horizon-europe.gouv.fr
-Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Status: Up
-Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Ports: 21/closed/tcp//ftp///, 23/closed/tcp//telnet///, 53/closed/tcp//domain///, 80/open/tcp//tcpwrapped///, 110/closed/tcp//pop3///, 113/closed/tcp//ident///, 135/closed/tcp//msrpc///, 139/closed/tcp//netbios-ssn///, 143/closed/tcp//imap///, 256/closed/tcp//fw1-secureremote///, 443/closed/tcp//https///, 445/closed/tcp//microsoft-ds///, 587/closed/tcp//submission///, 993/closed/tcp//imaps///, 1025/closed/tcp//NFS-or-IIS///, 1723/closed/tcp//pptp///, 3389/closed/tcp//ms-wbt-server///, 8888/closed/tcp//sun-answerbook///	Ignored State: filtered (982)
-# Nmap done at Mon Mar 11 19:07:39 2024 -- 1 IP address (1 host up) scanned in 441.85 seconds
+# Nmap 7.92 scan initiated Tue Mar 12 10:43:26 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln horizon-europe.gouv.fr
