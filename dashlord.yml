@@ -27,7 +27,7 @@ urls:
   - url: https://gard.gouv.fr
   - url: https://garde-nationale.gouv.fr
   - url: https://geoportail.gouv.fr
-  - url: https://geoportail-urbanisme.gouv.fr
+  - url: https://www.geoportail-urbanisme.gouv.fr
   - url: https://georisques.gouv.fr
   - url: https://gers.gouv.fr
   - url: https://gironde.gouv.fr
@@ -37,7 +37,7 @@ urls:
   - url: https://harkis.gouv.fr
   - url: https://haut-conseil-egalite.gouv.fr
   - url: https://haute-corse.gouv.fr
-  - url: https://haute-garonne.gouv.fr
+  - url: https://www.haute-garonne.gouv.fr
   - url: https://haute-loire.gouv.fr
   - url: https://haute-marne.gouv.fr
   - url: https://hautes-alpes.gouv.fr
