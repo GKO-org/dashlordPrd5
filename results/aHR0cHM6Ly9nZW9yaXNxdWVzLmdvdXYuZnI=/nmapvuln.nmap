@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Mon Mar 11 18:26:15 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln georisques.gouv.fr
+# Nmap 7.92 scan initiated Tue Mar 12 10:08:50 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln georisques.gouv.fr
 Nmap scan report for georisques.gouv.fr (193.56.4.74)
-Host is up (0.085s latency).
+Host is up (0.13s latency).
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE    VERSION
 80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
@@ -40,7 +40,7 @@ PORT    STATE  SERVICE    VERSION
 |     --bs-teal: #
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     Date: Mon, 11 Mar 2024 03:35:18 GMT
+|     Date: Tue, 12 Mar 2024 03:37:42 GMT
 |     Cache-Control: max-age=43200, public
 |     X-Drupal-Dynamic-Cache: UNCACHEABLE
 |     X-UA-Compatible: IE=edge
@@ -51,12 +51,12 @@ PORT    STATE  SERVICE    VERSION
 |     Expires: Sun, 19 Nov 1978 05:00:00 GMT
 |     Vary: Cookie,Accept-Encoding
 |     X-Drupal-Cache: HIT
-|     Last-Modified: Mon, 11 Mar 2024 03:35:18 GMT
-|     ETag: "1710128118"
+|     Last-Modified: Tue, 12 Mar 2024 03:37:42 GMT
+|     ETag: "1710214662"
 |     Connection: close
 |     Content-Type: text/html; charset=UTF-8
-|     Set-Cookie: BIGipServerpool_georisques_preventix_web_https=1041766572.47873.0000; path=/; Httponly; Secure
-|     Set-Cookie: TS0167fac5=01ce77d6009cea26bdc6fc356a944b23c11f1c8db75eedfe24dd63dfea0171df03bc0f4d7eb040ff7bf19711da39621f5f36b1d9ed; Path=/
+|     Set-Cookie: BIGipServerpool_georisques_preventix_web_https=1008212140.47873.0000; path=/; Httponly; Secure
+|     Set-Cookie: TS0167fac5=01ce77d600cd7950a333d6e30b944ace4ccfc34eb70da33aeacebe5de250711e41c5058c2e09e57ae828b3ef2e9bfc35c36f16c361; Path=/
 |     <!DOCTYPE html>
 |     <html lang="fr" data-fr-scheme="system">
 |     <head>
@@ -64,7 +64,7 @@ PORT    STATE  SERVICE    VERSION
 |     <script>var _paq = _paq || [];(function(){var u=(("https:" ==
 |   HTTPOptions: 
 |     HTTP/1.1 200 OK
-|     Date: Mon, 11 Mar 2024 18:26:35 GMT
+|     Date: Tue, 12 Mar 2024 10:09:14 GMT
 |     Allow: GET, POST
 |     Cache-Control: must-revalidate, no-cache, private
 |     X-UA-Compatible: IE=edge
@@ -77,38 +77,38 @@ PORT    STATE  SERVICE    VERSION
 |     Content-Length: 0
 |     Connection: close
 |     Content-Type: text/html; charset=UTF-8
-|     Set-Cookie: BIGipServerpool_georisques_preventix_web_https=1008212140.47873.0000; path=/; Httponly; Secure
-|_    Set-Cookie: TS0167fac5=01ce77d600a577bb9dd3962a508610b0c871ecf9cde1be0cd7599a05d45a9ec2d29c91aabe0b528de4e1c3e229b531573dd36f4090; Path=/
+|     Set-Cookie: BIGipServerpool_georisques_preventix_web_https=1024989356.47873.0000; path=/; Httponly; Secure
+|_    Set-Cookie: TS0167fac5=01ce77d6006c40ecfa24805f470b4bc5f8a79c2867a79295b36e9c721b61b181feecf00f4e2500bbcecda860329d4453b8de635c90; Path=/
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/11%Time=65EF4CDB%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,22E8,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Mon,\x2011\
-SF:x20Mar\x202024\x2003:35:18\x20GMT\r\nCache-Control:\x20max-age=43200,\x
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/12%Time=65F029C9%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,22E8,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2012\
+SF:x20Mar\x202024\x2003:37:42\x20GMT\r\nCache-Control:\x20max-age=43200,\x
 SF:20public\r\nX-Drupal-Dynamic-Cache:\x20UNCACHEABLE\r\nX-UA-Compatible:\
 SF:x20IE=edge\r\nContent-language:\x20fr\r\nX-Content-Type-Options:\x20nos
 SF:niff\r\nX-Frame-Options:\x20SAMEORIGIN\r\nPermissions-Policy:\x20intere
 SF:st-cohort=\(\)\r\nExpires:\x20Sun,\x2019\x20Nov\x201978\x2005:00:00\x20
 SF:GMT\r\nVary:\x20Cookie,Accept-Encoding\r\nX-Drupal-Cache:\x20HIT\r\nLas
-SF:t-Modified:\x20Mon,\x2011\x20Mar\x202024\x2003:35:18\x20GMT\r\nETag:\x2
-SF:0\"1710128118\"\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\
+SF:t-Modified:\x20Tue,\x2012\x20Mar\x202024\x2003:37:42\x20GMT\r\nETag:\x2
+SF:0\"1710214662\"\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\
 SF:x20charset=UTF-8\r\nSet-Cookie:\x20BIGipServerpool_georisques_preventix
-SF:_web_https=1041766572\.47873\.0000;\x20path=/;\x20Httponly;\x20Secure\r
-SF:\nSet-Cookie:\x20TS0167fac5=01ce77d6009cea26bdc6fc356a944b23c11f1c8db75
-SF:eedfe24dd63dfea0171df03bc0f4d7eb040ff7bf19711da39621f5f36b1d9ed;\x20Pat
+SF:_web_https=1008212140\.47873\.0000;\x20path=/;\x20Httponly;\x20Secure\r
+SF:\nSet-Cookie:\x20TS0167fac5=01ce77d600cd7950a333d6e30b944ace4ccfc34eb70
+SF:da33aeacebe5de250711e41c5058c2e09e57ae828b3ef2e9bfc35c36f16c361;\x20Pat
 SF:h=/\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"fr\"\x20data-fr-scheme=\
 SF:"system\">\n\x20\x20<head>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\"\
 SF:x20/>\n<script>var\x20_paq\x20=\x20_paq\x20\|\|\x20\[\];\(function\(\){
 SF:var\x20u=\(\(\"https:\"\x20==")%r(HTTPOptions,277,"HTTP/1\.1\x20200\x20
-SF:OK\r\nDate:\x20Mon,\x2011\x20Mar\x202024\x2018:26:35\x20GMT\r\nAllow:\x
+SF:OK\r\nDate:\x20Tue,\x2012\x20Mar\x202024\x2010:09:14\x20GMT\r\nAllow:\x
 SF:20GET,\x20POST\r\nCache-Control:\x20must-revalidate,\x20no-cache,\x20pr
 SF:ivate\r\nX-UA-Compatible:\x20IE=edge\r\nContent-language:\x20fr\r\nX-Co
 SF:ntent-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20SAMEORIGIN\r\nPer
 SF:missions-Policy:\x20interest-cohort=\(\)\r\nexpires:\x20-1\r\npragma:\x
 SF:20no-cache\r\nContent-Length:\x200\r\nConnection:\x20close\r\nContent-T
 SF:ype:\x20text/html;\x20charset=UTF-8\r\nSet-Cookie:\x20BIGipServerpool_g
-SF:eorisques_preventix_web_https=1008212140\.47873\.0000;\x20path=/;\x20Ht
-SF:tponly;\x20Secure\r\nSet-Cookie:\x20TS0167fac5=01ce77d600a577bb9dd3962a
-SF:508610b0c871ecf9cde1be0cd7599a05d45a9ec2d29c91aabe0b528de4e1c3e229b5315
-SF:73dd36f4090;\x20Path=/\r\n\r\n")%r(FourOhFourRequest,40A3,"HTTP/1\.1\x2
+SF:eorisques_preventix_web_https=1024989356\.47873\.0000;\x20path=/;\x20Ht
+SF:tponly;\x20Secure\r\nSet-Cookie:\x20TS0167fac5=01ce77d6006c40ecfa24805f
+SF:470b4bc5f8a79c2867a79295b36e9c721b61b181feecf00f4e2500bbcecda860329d445
+SF:3b8de635c90;\x20Path=/\r\n\r\n")%r(FourOhFourRequest,40A3,"HTTP/1\.1\x2
 SF:0500\x20Internal\x20Server\x20Error\r\nCache-Control:\x20no-cache\r\nCo
 SF:nnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nP
 SF:ragma:\x20no-cache\r\nContent-Length:\x2048736\r\n\r\n<html\x20lang=\"f
@@ -130,4 +130,4 @@ SF:20#198754;\r\n\t--bs-teal:\x20#");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Mar 11 18:28:46 2024 -- 1 IP address (1 host up) scanned in 151.62 seconds
+# Nmap done at Tue Mar 12 10:11:29 2024 -- 1 IP address (1 host up) scanned in 158.47 seconds
