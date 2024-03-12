@@ -46,7 +46,7 @@
 "cert_trust","prefectures-regions.gouv.fr/45.60.74.33","443","OK","Ok via SAN (same w/o SNI)","",""
 "cert_chain_of_trust","prefectures-regions.gouv.fr/45.60.74.33","443","CRITICAL","Some certificate trust checks failed -> Java (self signed CA in chain) Apple (self signed CA in chain)  , OK -> Mozilla Microsoft Linux","",""
 "cert_certificatePolicies_EV","prefectures-regions.gouv.fr/45.60.74.33","443","INFO","no","",""
-"cert_expirationStatus","prefectures-regions.gouv.fr/45.60.74.33","443","OK","347 >= 60 days","",""
+"cert_expirationStatus","prefectures-regions.gouv.fr/45.60.74.33","443","OK","346 >= 60 days","",""
 "cert_notBefore","prefectures-regions.gouv.fr/45.60.74.33","443","INFO","2024-02-22 23:00","",""
 "cert_notAfter","prefectures-regions.gouv.fr/45.60.74.33","443","OK","2025-02-21 22:59","",""
 "cert_extlifeSpan","prefectures-regions.gouv.fr/45.60.74.33","443","OK","certificate has no extended life time according to browser forum","",""
