@@ -339,7 +339,7 @@
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (29)"
+              "finding"      : "expires < 30 days (28)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,21 +493,21 @@
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+55 seconds from localtime"
+              "finding"      : "+93 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710182055"
+              "finding"      : "1710238700"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55 seconds"
+              "finding"      : "93 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -592,7 +592,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Varnish: 2638687 6981302X-Cache: HITX-Cache-Hits: 1"
+              "finding"      : "X-Varnish: 5836989 4986834X-Cache: HITX-Cache-Hits: 3"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1098,6 +1098,6 @@
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "106"
+              "finding"      : "56"
           }
 ]

@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Mon Mar 11 18:35:01 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln harkis.gouv.fr
+# Nmap 7.92 scan initiated Tue Mar 12 10:18:50 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln harkis.gouv.fr
 Nmap scan report for harkis.gouv.fr (160.92.148.78)
-Host is up (0.15s latency).
+Host is up (0.085s latency).
 rDNS record for 160.92.148.78: secure-ssl-dsaf-mutu-prod.as8677.net
 Not shown: 998 closed tcp ports (reset)
 PORT    STATE SERVICE    VERSION
@@ -10,7 +10,7 @@ PORT    STATE SERVICE    VERSION
 | fingerprint-strings: 
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     Date: Mon, 11 Mar 2024 18:35:17 GMT
+|     Date: Tue, 12 Mar 2024 10:19:04 GMT
 |     Content-Type: text/html
 |     Content-Length: 21551
 |     Connection: close
@@ -19,7 +19,7 @@ PORT    STATE SERVICE    VERSION
 |     Last-Modified: Fri, 26 Jan 2024 09:52:29 GMT
 |     ETag: "542f-60fd6410c3140"
 |     X-Frame-Options: SAMEORIGIN
-|     X-Varnish: 1463636
+|     X-Varnish: 7735445
 |     Age: 0
 |     X-Cache: MISS
 |     X-Cache-Hits: 0
@@ -67,13 +67,13 @@ PORT    STATE SERVICE    VERSION
 |     font-family:Tahoma;
 |_    color:white;
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/11%Time=65EF4EE5%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,4000,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Mon,\x2011\
-SF:x20Mar\x202024\x2018:35:17\x20GMT\r\nContent-Type:\x20text/html\r\nCont
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/12%Time=65F02C18%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,4000,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2012\
+SF:x20Mar\x202024\x2010:19:04\x20GMT\r\nContent-Type:\x20text/html\r\nCont
 SF:ent-Length:\x2021551\r\nConnection:\x20close\r\nX-Content-Type-Options:
 SF:\x20nosniff\r\nX-Xss-Protection:\x201;\x20mode=block\r\nLast-Modified:\
 SF:x20Fri,\x2026\x20Jan\x202024\x2009:52:29\x20GMT\r\nETag:\x20\"542f-60fd
-SF:6410c3140\"\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Varnish:\x201463636\
+SF:6410c3140\"\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-Varnish:\x207735445\
 SF:r\nAge:\x200\r\nX-Cache:\x20MISS\r\nX-Cache-Hits:\x200\r\nAccept-Ranges
 SF::\x20bytes\r\n\r\n<!DOCTYPE\x20html>\r\n<html\x20lang=\"fr\"\x20dir=\"l
 SF:tr\">\r\n<head>\r\n\x20\x20\x20\x20<meta\x20http-equiv=\"Content-Type\"
@@ -110,4 +110,4 @@ SF:0\r\n\x20\x20\x20\x20\x20");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Mar 11 18:37:32 2024 -- 1 IP address (1 host up) scanned in 151.01 seconds
+# Nmap done at Tue Mar 12 10:21:15 2024 -- 1 IP address (1 host up) scanned in 144.84 seconds
