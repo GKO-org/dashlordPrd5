@@ -21,11 +21,11 @@
 ###########################################################</span>
 
  Using &quot;OpenSSL 1.0.2-bad (1.0.2k-dev)&quot; [~183 ciphers]
- on fv-az1487-330:/home/testssl/bin/openssl.Linux.x86_64
+ on fv-az2036-160:/home/testssl/bin/openssl.Linux.x86_64
  (built: &quot;Sep  1 14:03:44 2022&quot;, platform: &quot;linux-x86_64&quot;)
 
 
-<span style="color:white;background-color:black;"> Start 2024-03-12 10:40:22                --&gt;&gt; 77.159.252.140:443 (herault.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2024-07-17 15:11:38                --&gt;&gt; 77.159.252.140:443 (herault.gouv.fr) &lt;&lt;--</span>
 
  rDNS (77.159.252.140):  140.252.159.77.rev.sfr.net.
  Service detected:       HTTP
@@ -98,15 +98,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication
-<span style="font-weight:bold;"> Serial                       </span>DBE98045373DC141CD196D686CB04426 (OK: length 16)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 F2F3E9342FBC4069FEAAEE63A05C082438632436
-                              SHA256 ECA62309095E23E4F223D5450717BC49AC2995A9F6BE8099AD5BE3A2C57C9C96
+<span style="font-weight:bold;"> Serial                       </span>993AF710D3BB3F2AA24444A4BECE294F (OK: length 16)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 ECCB54727D3E039C3296775A80B817CC53013DAB
+                              SHA256 F23AD9D9D4F0084FA4B02245DE088D3F5142E632AB778954A3199FD630D12A99
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>www.herault.gouv.fr </i> (CN in response to request w/o SNI: <i>default.phi67.zd-est.pref.gouv.fr </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>www.herault.gouv.fr herault.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">233 &gt;= 60 days</span> (2023-10-02 22:00 --&gt; 2024-10-31 22:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">105 &gt;= 60 days</span> (2024-03-22 23:00 --&gt; 2024-10-30 22:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.dhimyotis.com/servicesca.crl
                               http://crl.certigna.fr/servicesca.crl
@@ -125,15 +125,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  301 Moved Permanently, redirecting to &quot;<a href="" style="color:black;text-decoration:none;"></a>&quot;
-<span style="font-weight:bold;"> HTTP clock skew              </span>0 sec from localtime
-<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          0
+<span style="font-weight:bold;"> HTTP clock skew              </span>-1 sec from localtime
+<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          9
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
 <span style="font-weight:bold;"> Server banner                </span>Apache
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>(none issued at &quot;/&quot;) -- maybe better try target URL of 30x
 <span style="font-weight:bold;"> Security headers             </span>Cache-Control: max-age=1
-<span style="font-weight:bold;"> Reverse Proxy banner         </span>x-cache: Miss
+<span style="font-weight:bold;"> Reverse Proxy banner         </span>x-cache: Hit
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing vulnerabilities </span>
@@ -152,7 +152,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=ECA62309095E23E4F223D5450717BC49AC2995A9F6BE8099AD5BE3A2C57C9C96" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=ECA62309095E23E4F223D5450717BC49AC2995A9F6BE8099AD5BE3A2C57C9C96</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F23AD9D9D4F0084FA4B02245DE088D3F5142E632AB778954A3199FD630D12A99" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F23AD9D9D4F0084FA4B02245DE088D3F5142E632AB778954A3199FD630D12A99</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      common prime with 2048 bits detected: <i>HAProxy</i> (<span style="color:#008817;">2048 bits</span>),
                                            but no DH EXPORT ciphers
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
@@ -213,7 +213,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS is not offered
 
-<span style="color:white;background-color:black;"> Done 2024-03-12 10:41:51 [  90s] --&gt;&gt; 77.159.252.140:443 (herault.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2024-07-17 15:12:34 [  58s] --&gt;&gt; 77.159.252.140:443 (herault.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
