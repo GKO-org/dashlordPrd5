@@ -199,7 +199,7 @@
               "ip"           : "haute-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -262,7 +262,7 @@
               "ip"           : "haute-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "28C52F9001867877DB6D9F73F4607275"
+              "finding"      : "3770D1D63FA9E4675865947AE5035F74"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "haute-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6A518A252C4C0B55C700F3B1AC8B212A7A9F6485"
+              "finding"      : "7C321A8DFD9C68B62F35CB5FD67BFC85AC7B313E"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "haute-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "8BEADD6BED124FCFB550FA92593D010C2B0B025A08A1AF4D8C52061DC5CBC0C9"
+              "finding"      : "027301B35DFE066A62EA700E01569A078E591C90A3064D8DBA29F4C21A966233"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "haute-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "haute-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "haute-marne.gouv.fr www.haute-marne.gouv.fr"
+              "finding"      : "www.haute-marne.gouv.fr haute-marne.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -339,21 +339,21 @@
               "ip"           : "haute-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "240 >= 60 days"
+              "finding"      : "112 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "haute-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-10-09 22:00"
+              "finding"      : "2024-03-21 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "haute-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-11-07 22:59"
+              "finding"      : "2024-11-06 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,7 +500,7 @@
               "ip"           : "haute-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710239261"
+              "finding"      : "1721228110"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=8BEADD6BED124FCFB550FA92593D010C2B0B025A08A1AF4D8C52061DC5CBC0C9"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=027301B35DFE066A62EA700E01569A078E591C90A3064D8DBA29F4C21A966233"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "haute-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "88"
+              "finding"      : "100"
           }
 ]
