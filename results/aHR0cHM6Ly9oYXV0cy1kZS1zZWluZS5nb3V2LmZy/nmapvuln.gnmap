@@ -1,1 +1,1 @@
-# Nmap 7.92 scan initiated Tue Mar 12 10:39:48 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln hauts-de-seine.gouv.fr
+# Nmap 7.92 scan initiated Wed Jul 17 15:11:06 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln hauts-de-seine.gouv.fr
