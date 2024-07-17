@@ -262,7 +262,7 @@
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6BC54647A1F9D4A1E4C5B8BB8BE3D3F6"
+              "finding"      : "235542D46FC839348B20F6285AE27C6C"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "A63C1B968B3251A1E9EAC46244CAA06A63CC0328"
+              "finding"      : "ADB0B0F1E83A8C5332C158CD9FA4DF6929876AF7"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0C2A0544F8F16437CFA4538814BA9FF81E27774EBD307476A40BA7324B070363"
+              "finding"      : "C75F3D52ADBA3401F1744447B58CF71470FBBFF93F6340D4A40D108FE079E138"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (28)"
+              "severity"     : "OK",
+              "finding"      : "252 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-04-10 22:00"
+              "finding"      : "2024-03-26 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-04-09 21:59"
+              "severity"     : "OK",
+              "finding"      : "2025-03-26 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -493,28 +493,42 @@
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+93 seconds from localtime"
+              "finding"      : "+249 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710238700"
+              "finding"      : "1721227508"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93 seconds"
+              "finding"      : "250 seconds"
           }
 ,         {
-              "id"           : "HSTS",
+              "id"           : "HSTS_time",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "not offered"
+              "severity"     : "MEDIUM",
+              "finding"      : "max-age too short. 0 days (=1000 seconds) < 15552000 seconds"
+          }
+,         {
+              "id"           : "HSTS_subdomains",
+              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "only for this domain"
+          }
+,         {
+              "id"           : "HSTS_preload",
+              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "domain is NOT marked for preloading"
           }
 ,         {
               "id"           : "HPKP",
@@ -592,7 +606,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Varnish: 5836989 4986834X-Cache: HITX-Cache-Hits: 3"
+              "finding"      : "X-Varnish: 8687647 8422119X-Cache: HITX-Cache-Hits: 4"
           }
 ,         {
               "id"           : "heartbleed",
@@ -715,7 +729,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0C2A0544F8F16437CFA4538814BA9FF81E27774EBD307476A40BA7324B070363"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=C75F3D52ADBA3401F1744447B58CF71470FBBFF93F6340D4A40D108FE079E138"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1091,13 +1105,13 @@
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Grade capped to A. HSTS is not offered"
+              "finding"      : "Grade capped to A. HSTS max-age is too short"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "108"
           }
 ]
