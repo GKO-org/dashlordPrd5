@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln igas.gouv.fr</pre>
-<p class="lead">Tue Mar 12 10:54:28 2024 – Tue Mar 12 10:55:14 2024<br>1 hosts scanned.
+<p class="lead">Wed Jul 17 15:24:38 2024 – Wed Jul 17 15:27:21 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,7 +76,7 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>185.194.83.95</td>
+<td>185.194.83.89</td>
 <td>igas.gouv.fr</td>
 <td>2</td>
 <td>0</td>
@@ -91,8 +91,8 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#185-194-83-95"><h3 class="panel-title">185.194.83.95 - igas.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="185-194-83-95">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#185-194-83-89"><h3 class="panel-title">185.194.83.89 - igas.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="185-194-83-89">
 <h4>Hostnames</h4>
 <ul><li>igas.gouv.fr (user)</li></ul>
 <h4>Ports</h4>
@@ -111,14 +111,29 @@
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">tcpwrapped</td>
+<td title="Service">http</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">BigIP</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
+    Connection: close
+    Content-Length: 0
+  GetRequest, HTTPOptions, RTSPRequest: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https:///
+    Connection: close
+    Content-Length: 0
+  SIPOptions: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https://sip:nm
+    Connection: close
+    Content-Length: 0</pre>
 </td></tr>
 <tr class="active">
 <td>113</td>
@@ -142,33 +157,62 @@
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
-    HTTP/1.0 404 Not Found
+    HTTP/1.1 400 Bad Request
+    Date: Wed, 17 Jul 2024 15:24:57 GMT
+    Content-Length: 226
+    Content-Type: text/html; charset=iso-8859-1
+    Age: 0
+    X-Cache: MISS
+    X-Cache-Hits: 0
     Connection: close
-    Content-Length: 9
-    ERROR
-  GetRequest: 
-    HTTP/1.1 200 OK
-    Date: Tue, 12 Mar 2024 10:54:51 GMT
-    X-Spip-Cache: 86400
-    Last-Modified: Tue, 12 Mar 2024 10:54:51 GMT
-    Vary: Accept-Encoding
-    Connection: close
-    Content-Type: text/html; charset=utf-8
-    Set-Cookie: BIGipServerpool-igas-prod.cegedim.cloud-HTTP=!pz6j+UYtSThu6slWDPlD0yXzT0UGhii5dROICEjj7VQWLl48nEnJAsOJ2r9upzUOelr1j3RNQuX0dNbURiNGjJ0uIezx; path=/; Httponly; Secure
+    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!l5oW/wMG9Q3fsohWDPlD0yXzT0UGhlWzBGnBHjsslUzMcdtB5D6gd9tpLrMnoItsVhdqWqXvGmw2YDdO3Pq6zRXINMM=; path=/; Httponly; Secure
     Strict-Transport-Security: max-age=31536000; includeSubDomains
-    &lt;!DOCTYPE HTML&gt;
-    &lt;html class="page_sommaire sans_composition ltr fr no-js" lang="fr" dir="ltr"&gt;
-    &lt;head&gt;
-    &lt;script type='text/javascript'&gt;/*&lt;![CDATA[*/(function(H){H.className=H.className.replace(/bno-jsb/,'js')})(document.documentElement);/*]]&gt;*/&lt;/script&gt;
-    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
-    &lt;title&gt;IGAS - Inspection g
-    rale des affaires sociales&lt;/title&gt;
-    &lt;meta name="description" content="Inspection g
-  HTTPOptions: 
-    HTTP/1.0 403 Forbidden
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  GetRequest: 
+    HTTP/1.1 400 Bad Request
+    Date: Wed, 17 Jul 2024 15:24:57 GMT
+    Content-Length: 226
+    Content-Type: text/html; charset=iso-8859-1
+    Age: 0
+    X-Cache: MISS
+    X-Cache-Hits: 0
     Connection: close
-    Content-Length: 9
-    ERROR</pre>
+    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!2k8HPJuxdDpX+w1WDPlD0yXzT0UGhoWrYrSuzuJqNiFfcQm0su01IyRFUKa/vUOXlJ0me6/IDESaBYxCv1x06lqHaxc=; path=/; Httponly; Secure
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  HTTPOptions: 
+    HTTP/1.1 400 Bad Request
+    Date: Wed, 17 Jul 2024 15:24:57 GMT
+    Content-Length: 226
+    Content-Type: text/html; charset=iso-8859-1
+    Age: 0
+    X-Cache: MISS
+    X-Cache-Hits: 0
+    Connection: close
+    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!ffmvAjA5aK8cTWRWDPlD0yXzT0UGhqu0cd/ElLZ74OVM4pGIsGT9DgFCElu3zb4ly58xpr3Xhjao1ImhK/NuScO7eok=; path=/; Httponly; Secure
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;400 Bad Request&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Bad Request&lt;/h1&gt;
+    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
+    &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -188,17 +232,17 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>185.194.83.95 - igas.gouv.fr</td>
+<td>185.194.83.89 - igas.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
-<td>tcpwrapped</td>
+<td>http</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>185.194.83.95 - igas.gouv.fr</td>
+<td>185.194.83.89 - igas.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
