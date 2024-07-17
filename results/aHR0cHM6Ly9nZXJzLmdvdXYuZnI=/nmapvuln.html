@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln gers.gouv.fr</pre>
-<p class="lead">Tue Mar 12 10:09:54 2024 – Tue Mar 12 10:10:31 2024<br>1 hosts scanned.
+<p class="lead">Wed Jul 17 14:34:36 2024 – Wed Jul 17 14:35:15 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -124,9 +124,9 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
+  FourOhFourRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Tue, 12 Mar 2024 10:10:09 GMT
+    date: Wed, 17 Jul 2024 14:34:51 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -138,19 +138,7 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 403 Forbidden
-    date: Tue, 12 Mar 2024 10:10:08 GMT
-    server: Apache
-    cache-control: no-cache
-    content-type: text/html
-    age: 0
-    x-cache: Miss
-    connection: close
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
-    Request forbidden by administrative rules.
-    &lt;/body&gt;&lt;/html&gt;
-  HTTPOptions: 
-    HTTP/1.1 403 Forbidden
-    date: Tue, 12 Mar 2024 10:10:08 GMT
+    date: Wed, 17 Jul 2024 14:34:50 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -171,7 +159,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Tue, 12 Mar 2024 10:10:09 GMT
+    date: Wed, 17 Jul 2024 14:34:51 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
@@ -201,7 +189,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest, GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Tue, 12 Mar 2024 10:10:15 GMT
+    date: Wed, 17 Jul 2024 14:34:57 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -220,7 +208,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Tue, 12 Mar 2024 10:10:21 GMT
+    date: Wed, 17 Jul 2024 14:35:03 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
