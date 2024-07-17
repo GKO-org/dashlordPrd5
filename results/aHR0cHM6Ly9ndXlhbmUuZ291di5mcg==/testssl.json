@@ -199,7 +199,7 @@
               "ip"           : "guyane.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -262,7 +262,7 @@
               "ip"           : "guyane.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "318F3F8BC896BD19DED64E84EBB8C72F"
+              "finding"      : "419F127AAF855157F1C0A2C3932668C7"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "guyane.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "AA3DF4090E221FA271F41B2DEF09040E71D17FB2"
+              "finding"      : "DC8889ADAA209AAE23FC663712DAE8D0A39D6142"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "guyane.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F77CA52273AE77124DCEC81BD626BA60E48F557E676ABD61DEC418C78381CCE6"
+              "finding"      : "C60FCA67322A5605A1D2BD01AB9BD4BAA6F4DC09D7377744A72E54EDAEFFE558"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "guyane.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "guyane.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "guyane.gouv.fr www.guyane.gouv.fr"
+              "finding"      : "www.guyane.gouv.fr guyane.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -339,21 +339,21 @@
               "ip"           : "guyane.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "240 >= 60 days"
+              "finding"      : "112 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "guyane.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-10-09 22:00"
+              "finding"      : "2024-03-21 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "guyane.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-11-07 22:59"
+              "finding"      : "2024-11-06 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,7 +500,7 @@
               "ip"           : "guyane.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710238603"
+              "finding"      : "1721227371"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F77CA52273AE77124DCEC81BD626BA60E48F557E676ABD61DEC418C78381CCE6"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=C60FCA67322A5605A1D2BD01AB9BD4BAA6F4DC09D7377744A72E54EDAEFFE558"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "guyane.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "101"
           }
 ]
