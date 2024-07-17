@@ -262,7 +262,7 @@
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2B5A56C9B255C3496500E37E66C094D8"
+              "finding"      : "F8156287F398FDB7F96919F025453AC7"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "94CC74B3BFECD30D869B7188DBBA00DC2CE70370"
+              "finding"      : "E5AAD737C564954822D0FB7D0E740A30618FF26D"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6C422C2D04417B2D965998DB0B432B8E9F64FB50FAA2D3EBDC25192193F359FF"
+              "finding"      : "145F1C19F150DB005FE8D5F09018A0C29D877E32DC30E08E202AB92CC467F8A6"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIIeDCCBmCgAwIBAgIQK1pWybJVw0llAON+ZsCU2DANBgkqhkiG9w0BAQsFADB9MQswCQYDVQQGEwJGUjESMBAGA1UECgwJREhJTVlPVElTMRwwGgYDVQQLDBMwMDAyIDQ4MTQ2MzA4MTAwMDM2MR0wGwYDVQRhDBROVFJGUi00ODE0NjMwODEwMDAzNjEdMBsGA1UEAwwUQ2VydGlnbmEgU2VydmljZXMgQ0EwHhcNMjQwMjIyMjMwMDAwWhcNMjUwMjIxMjI1OTU5WjB/MQswCQYDVQQGEwJGUjEOMAwGA1UEBwwFUEFSSVMxITAfBgNVBAoMGE1JTklTVEVSRSBERSBMIElOVEVSSUVVUjEoMCYGA1UEAwwfd3d3LnByZWZlY3R1cmVzLXJlZ2lvbnMuZ291di5mcjETMBEGA1UEBRMKUzMwMTI1MDY4ODCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALIpFAMgTqMM+P1Nx4b9EwlphcpChWwCIQSSAw3i9KC+cEkeHRrSEVINQJCwwwakhI/lj3V3YQbvOzpEGmpdIFbowyh6QJPGWg/99iXIh/EELamYdKHZmPf0QwqWqUXPeZ5Jw4aetSZwiCAAjVUVAou3XR0omqfKRb3h0qMXcZ762Iwc1DgbWzylPMVUxSmp5GpLfk6jh1IkxWPTOHWBhy4DGcGzy0bIXjxDXQ+uI/AgpDGQkZThM34Zs75JT0QNL1kO6DPiLUppyhD4KGCiUP0Nlo9V0l7X7TCUOXUAH/xmSZZSPhpAlWblkGHfWQ9xnMlSQXPeeyVc+AFxl9t4OHUCAwEAAaOCA/AwggPsMIHkBggrBgEFBQcBAQSB1zCB1DA2BggrBgEFBQcwAoYqaHR0cDovL2F1dG9yaXRlLmNlcnRpZ25hLmZyL3NlcnZpY2VzY2EuZGVyMDgGCCsGAQUFBzAChixodHRwOi8vYXV0b3JpdGUuZGhpbXlvdGlzLmNvbS9zZXJ2aWNlc2NhLmRlcjAwBggrBgEFBQcwAYYkaHR0cDovL3NlcnZpY2VzY2Eub2NzcC5kaGlteW90aXMuY29tMC4GCCsGAQUFBzABhiJodHRwOi8vc2VydmljZXNjYS5vY3NwLmNlcnRpZ25hLmZyMB8GA1UdIwQYMBaAFKzsho9LNxy4fxcbGdCu6E7jNFwSMAkGA1UdEwQCMAAwYQYDVR0gBFowWDAIBgZngQwBAgIwTAYLKoF6AYExAgUBAQEwPTA7BggrBgEFBQcCARYvaHR0cHM6Ly93d3cuY2VydGlnbmEuY29tL2F1dG9yaXRlLWNlcnRpZmljYXRpb24wZQYDVR0fBF4wXDAroCmgJ4YlaHR0cDovL2NybC5jZXJ0aWduYS5mci9zZXJ2aWNlc2NhLmNybDAtoCugKYYnaHR0cDovL2NybC5kaGlteW90aXMuY29tL3NlcnZpY2VzY2EuY3JsMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwEB/wQEAwIFoDBHBgNVHREEQDA+gh93d3cucHJlZmVjdHVyZXMtcmVnaW9ucy5nb3V2LmZyghtwcmVmZWN0dXJlcy1yZWdpb25zLmdvdXYuZnIwHQYDVR0OBBYEFDZHZ9LviwpVtizS44RtOCtAreS9MIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdQBOdaMnXJoQwzhbbNTfP1LrHfDgjhuNacCx+mSxYpo53wAAAY3VbevyAAAEAwBGMEQCIEjA7Cx0eN95zSVU6j04pz4SMJNhP1OWoUq3KDmRzxw4AiBR6s6XuV+M6Uj0RRAW8hM1Zl+2QK7y6f1a8Y6SScNUVgB3AM8RVu7VLnyv84db2Wkum+kacWdKsBfsrAHSW3fOzDsIAAABjdVt7GEAAAQDAEgwRgIhAJVG49j/Yx07cpKcwO/aHIp/i8cznwtzmMv1PwOXjkYQAiEA90IHLOZNuMY6iwU/z0Aozkhkz2IPeC6a1FerM/s0yO0AdgDm0jFjQHeMwRBBBtdxuc7B0kD2loSG+7qHMh39HjeOUAAAAY3Vbe77AAAEAwBHMEUCIQDIp0LJhuBJRAxWwU/Bo0GkyWxET71PbU0KSnYe+a4PyAIgdr6BCczXSwAzAH+Sqmad366eAkjS5cXE/4vwwOfpxXYwDQYJKoZIhvcNAQELBQADggIBAIgI3Xnj2kgaG+ZHBmsvwVUr1g0uA48efa7el0PGr5b20Z6uO56fii4M36lc9cd/vCUAXtlmS1yOIIKKUcp7MnHlQIqvJtaYbnCOMwGCZn01dgXH5+GadvufiHNEkX/Zw5H48ylaUgvxMsForEEpyQlafaQATzkOcOZa9CvbP5OU47yO4tUCeqQES7III+iyE9uWTzt7Ers0Wc3OoXAPPR8audm0tYF5S99Hc8S/wiE8vsTAZ9zo79aBY/zRAXbGP/oQ3z48jyRMkVt431y4ZmRIJa6bfFAVfYlfm4zkd9dZKd8UkKD1XFF3c/9kt0dlhajknb73hOJt7dEpHBub3L7OiXdsiky7elhrLc+4uTF0K0XBrRysvukZWfFfG32Z0HX6OYY500rVSVFTAmBuwBLtTLejMk15CWEa/hLrTq9EY+w6uNE0wrIRAStHqs1+EQEx3+52xcMpN1CiE4xGm85BPnQZXloPdQUWYV2AnGfsA7Q/Stv9/MeZL395VWndhp1uSEnP2dMs/S59rHRXceK1I+nxB4XMws0BLnH7DhOmljcf/nEATnNqWo6CCxOCmOfJm7qIwb7kRzMxsb7vZaeHl/rx6JlyGITrn2uZSOKFN9gvQ65FONotJqFrhydgQW7IZxJ+c9uk+mtA9GuvzwZI5XkZDOzzlKueSvnGK22Z\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.prefectures-regions.gouv.fr prefectures-regions.gouv.fr"
+              "finding"      : "prefectures-regions.gouv.fr www.prefectures-regions.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -324,8 +324,8 @@
               "id"           : "cert_chain_of_trust",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
-              "severity"     : "CRITICAL",
-              "finding"      : "Some certificate trust checks failed -> Java (self signed CA in chain) Apple (self signed CA in chain)  , OK -> Mozilla Microsoft Linux"
+              "severity"     : "OK",
+              "finding"      : "passed."
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
@@ -339,21 +339,21 @@
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "346 >= 60 days"
+              "finding"      : "218 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-02-22 23:00"
+              "finding"      : "2024-03-21 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-02-21 22:59"
+              "finding"      : "2025-02-20 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -423,7 +423,7 @@
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3"
+              "finding"      : "2"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
@@ -444,28 +444,28 @@
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIHETCCBPmgAwIBAgIRAP0wzwQ0T8ON2QxOcHU9BiMwDQYJKoZIhvcNAQELBQAwWjELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURoaW15b3RpczEcMBoGA1UECwwTMDAwMiA0ODE0NjMwODEwMDAzNjEZMBcGA1UEAwwQQ2VydGlnbmEgUm9vdCBDQTAeFw0xNTExMjUxMTM3MjFaFw0zMzA2MDMxMTM3MjFaMH0xCzAJBgNVBAYTAkZSMRIwEAYDVQQKDAlESElNWU9USVMxHDAaBgNVBAsMEzAwMDIgNDgxNDYzMDgxMDAwMzYxHTAbBgNVBGEMFE5UUkZSLTQ4MTQ2MzA4MTAwMDM2MR0wGwYDVQQDDBRDZXJ0aWduYSBTZXJ2aWNlcyBDQTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALPM+7LpWBz9wFcPaTc3xnB+5g0XrnptB0EPPfrR04vO52Ykm4ky1d4ZLd10tbM1fa1RqNSOVWWg93O4pL7zCFKlz6JV74ZZVhHpEAwzBwv2oPnxvVbxtSN67xsSY66ahUYxjzs8+3FhmsiRxqwnTYvK2u70uglUvRisOKyTL/M6JnrC4y8tlmoz7OSa5BmBMVplJFQtvmON6N9aHLvYMz+EyJPCbXL6pELxeHjFT5QmIaRamsr2DOTaCjtBZKI1Wnh3X7lnbjM8MESJiV2t7E9tIQNG0Z/HI3tO4aaUMum3KysY5sC8v3vi7rryGidgzHQhrtP0ZXWW5UH/k7umLS/P/XXWnCFpc2Lxa1uDGfc2im7xibRoPP+JNZszN76euFlls6jyEXAiwnVr14tVVTewLK0OWs5SJHpEKp8PGMZRDj59EmMvokWwzL6QzNZ6vVAp00oOm05sbspNY9+MFqGKKUsKvhFGEa4XmRNxDe6KswLcjPZB+NKHZ0QWFd4ip5C5XmEK/8qIPjwVr9dah9+oiHGGO8Wx7gJAMF5DTmkvW7GhqCKj1LmHnabjzc8av6kxWVQZi/C7HCm9i/W4wio+JA2EAFLqNL3GPNbK9kau4yPhQt/c7zxzo0OHnlsV4THCG7oOCd3cfCiyfQcb3FBt6OSpaKRZxjCLBwP00r0fAgMBAAGjggGtMIIBqTASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUrOyGj0s3HLh/FxsZ0K7oTuM0XBIwHwYDVR0jBBgwFoAUGIdW4G537iQ1PE5zmh/W4eJ5fiswSQYDVR0gBEIwQDA+BgoqgXoBgTECAAEBMDAwLgYIKwYBBQUHAgEWImh0dHBzOi8vd3d3LmNlcnRpZ25hLmZyL2F1dG9yaXRlcy8wgYgGCCsGAQUFBwEBBHwwejA6BggrBgEFBQcwAoYuaHR0cDovL2F1dG9yaXRlLmNlcnRpZ25hLmZyL2NlcnRpZ25hcm9vdGNhLmRlcjA8BggrBgEFBQcwAoYwaHR0cDovL2F1dG9yaXRlLmRoaW15b3Rpcy5jb20vY2VydGlnbmFyb290Y2EuZGVyMG0GA1UdHwRmMGQwL6AtoCuGKWh0dHA6Ly9jcmwuY2VydGlnbmEuZnIvY2VydGlnbmFyb290Y2EuY3JsMDGgL6AthitodHRwOi8vY3JsLmRoaW15b3Rpcy5jb20vY2VydGlnbmFyb290Y2EuY3JsMA0GCSqGSIb3DQEBCwUAA4ICAQCI5QbprXJ93L+JWHYpUTinXAMSvXMx2dmNm4mIiJRAbGnBOoEYx7M61fbLL5EJIYZhw8jLmeYVFuMao5OJLwda+RMmVzE7lyTGsY64IDKdwogByNCqbKzrlhnU8myyMNB0BDs2jgwQe2Dj9v+MddeHr7sDqvs7R1tSS5hoASLtdQhO7oxUzr3m7M8q+lh4jszli+cjfiPUVS2ADFu4ccQIh4OsIX6SWdU+8R+c/fn0FV6ip4SAVbNyCToz0ZbZKO8YTJgORxRmvrop9dPyuLWjaRrZ0LMx4a3EM3sQDPDqmsG0lHtfFj2PiJvq4lEYA+gDiLKODI+3DJMqo559m3QSS52DsShomHX/Txd0lJoZwepCE6X4KkG9FHjVWXyLgYFwCOcn+hkLhdpblms0wtjeSPITGOioSkefzhleJnDgJ9X4M3svd0HLTpJilC1DmDZgdrXWITVdOoCogr2LFKNiGd0tbpKG533eKpfBALlm+afc6j73p1KhJEAnAfydDZqBRqv6+HHYplNDn/K2I1CZdkwaGrx3HOR/voGUi1sUI+hYbsPAFu8ZxrhD9UiysmLCfEUhqkbojony+L2mKsoLqyd24emQzn7GgMa7emlWX2jQUTwrD4SliZ2uOetVaZX5RLyqJWs4Igo/xye0xtMQN8INJ4hSZvnMQ1qFtuSRcQ==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "07F2CE55CA1AA6CB992719B1E423C1D02C1EA759A6E2EAB4E150C88282E22550"
+              "finding"      : "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2015-11-25 11:37"
+              "finding"      : "2015-11-25 11:33"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2033-06-03 11:37"
+              "finding"      : "2025-11-22 11:33"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
@@ -479,49 +479,7 @@
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Certigna Services CA <-- Certigna Root CA"
-          }
-,         {
-              "id"           : "intermediate_cert <#2>",
-              "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
-              "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "D48D3D23EEDB50A459E55197601C27774B9D7B18C94D5A059511A10250B93168"
-          }
-,         {
-              "id"           : "intermediate_cert_notBefore <#2>",
-              "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2013-10-01 08:32"
-          }
-,         {
-              "id"           : "intermediate_cert_notAfter <#2>",
-              "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2033-10-01 08:32"
-          }
-,         {
-              "id"           : "intermediate_cert_expiration <#2>",
-              "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ok > 40 days"
-          }
-,         {
-              "id"           : "intermediate_cert_chain <#2>",
-              "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Certigna Root CA <-- Certigna Root CA"
+              "finding"      : "Certigna Services CA <-- Certigna"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -715,7 +673,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=6C422C2D04417B2D965998DB0B432B8E9F64FB50FAA2D3EBDC25192193F359FF"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=145F1C19F150DB005FE8D5F09018A0C29D877E32DC30E08E202AB92CC467F8A6"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1035,66 +993,59 @@
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "100"
           }
 ,         {
               "id"           : "protocol_support_score_weighted",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "30"
           }
 ,         {
               "id"           : "key_exchange_score",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "90"
           }
 ,         {
               "id"           : "key_exchange_score_weighted",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "27"
           }
 ,         {
               "id"           : "cipher_strength_score",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "60"
           }
 ,         {
               "id"           : "cipher_strength_score_weighted",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "24"
           }
 ,         {
               "id"           : "final_score",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0"
+              "finding"      : "81"
           }
 ,         {
               "id"           : "overall_grade",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
-              "severity"     : "CRITICAL",
-              "finding"      : "T"
+              "severity"     : "OK",
+              "finding"      : "A"
           }
 ,         {
               "id"           : "grade_cap_reason_1",
-              "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to T. Issues with chain of trust (self signed CA in chain)"
-          }
-,         {
-              "id"           : "grade_cap_reason_2",
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
@@ -1105,6 +1056,6 @@
               "ip"           : "prefectures-regions.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "74"
+              "finding"      : "131"
           }
 ]
