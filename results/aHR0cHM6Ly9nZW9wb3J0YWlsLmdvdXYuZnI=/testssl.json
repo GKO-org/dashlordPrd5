@@ -269,7 +269,7 @@
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "46FCF771BF156B9DDADEBC773C5E6692"
+              "finding"      : "E8817BF4AE3950D96A7FA7A762603901"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3ED05A7FBC03B6AA5D36E3561E12E8E1140739DA"
+              "finding"      : "CA4F5877D7367561E00EC15FA03BC787E6C9288D"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F2296536BE6A9C1E1520F8E16F6D035DCD33A73E3531453951B107A93ED730D0"
+              "finding"      : "5DBB38239213A0ABAE19C383689B4569467871A110729FAE8C509866DA5B62CE"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -318,7 +318,7 @@
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.geoportail.gouv.fr geoportail.gouv.fr"
+              "finding"      : "geoportail.gouv.fr www.geoportail.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -332,7 +332,7 @@
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "CRITICAL",
-              "finding"      : "failed (chain incomplete)."
+              "finding"      : "Some certificate trust checks failed -> Java (self signed CA in chain) Apple (self signed CA in chain)  , OK -> Mozilla Microsoft Linux"
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
@@ -346,21 +346,21 @@
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "349 >= 60 days"
+              "finding"      : "221 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-02-25 23:00"
+              "finding"      : "2024-03-24 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-02-24 22:59"
+              "finding"      : "2025-02-23 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,14 +381,14 @@
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -423,7 +423,7 @@
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1"
+              "finding"      : "3"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
@@ -438,6 +438,90 @@
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "Certigna Services CA (DHIMYOTIS from FR)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "geoportail.gouv.fr/37.59.31.228",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "geoportail.gouv.fr/37.59.31.228",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "07F2CE55CA1AA6CB992719B1E423C1D02C1EA759A6E2EAB4E150C88282E22550"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "geoportail.gouv.fr/37.59.31.228",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2015-11-25 11:37"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "geoportail.gouv.fr/37.59.31.228",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2033-06-03 11:37"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "geoportail.gouv.fr/37.59.31.228",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "geoportail.gouv.fr/37.59.31.228",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA <-- Certigna Root CA"
+          }
+,         {
+              "id"           : "intermediate_cert <#2>",
+              "ip"           : "geoportail.gouv.fr/37.59.31.228",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
+              "ip"           : "geoportail.gouv.fr/37.59.31.228",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "D48D3D23EEDB50A459E55197601C27774B9D7B18C94D5A059511A10250B93168"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#2>",
+              "ip"           : "geoportail.gouv.fr/37.59.31.228",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2013-10-01 08:32"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#2>",
+              "ip"           : "geoportail.gouv.fr/37.59.31.228",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2033-10-01 08:32"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#2>",
+              "ip"           : "geoportail.gouv.fr/37.59.31.228",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#2>",
+              "ip"           : "geoportail.gouv.fr/37.59.31.228",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Root CA <-- Certigna Root CA"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -465,14 +549,14 @@
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710237705"
+              "finding"      : "1721226485"
           }
 ,         {
               "id"           : "HSTS_time",
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "182 days (=15724800 seconds) > 15552000 seconds"
+              "finding"      : "365 days (=31536000 seconds) > 15552000 seconds"
           }
 ,         {
               "id"           : "HSTS_subdomains",
@@ -652,7 +736,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F2296536BE6A9C1E1520F8E16F6D035DCD33A73E3531453951B107A93ED730D0"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=5DBB38239213A0ABAE19C383689B4569467871A110729FAE8C509866DA5B62CE"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1028,13 +1112,13 @@
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Grade capped to T. Issues with the chain of trust (chain incomplete)"
+              "finding"      : "Grade capped to T. Issues with chain of trust (self signed CA in chain)"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "51"
+              "finding"      : "55"
           }
 ]
