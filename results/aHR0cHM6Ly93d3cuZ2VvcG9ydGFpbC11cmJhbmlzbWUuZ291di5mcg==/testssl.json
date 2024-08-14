@@ -346,7 +346,7 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/217.182.127.161",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "218 >= 60 days"
+              "finding"      : "190 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,14 +542,14 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/217.182.127.161",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.geoportail-urbanisme.gouv.fr/217.182.127.161",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721226786"
+              "finding"      : "1723642310"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1126,6 +1126,6 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/217.182.127.161",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "74"
+              "finding"      : "116"
           }
 ]
