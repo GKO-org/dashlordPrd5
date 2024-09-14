@@ -262,7 +262,7 @@
               "ip"           : "haute-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9605EEE14188F2AB9564788EB34D52B8"
+              "finding"      : "5322A5768C82D0699830001E3FE745FF"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "haute-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "450DE281488E39A4653D90F18CCBEA479B49693E"
+              "finding"      : "4264A77BA59714FD06B02244FA0D57EAFA855BB1"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "haute-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "002BEA6539C4A61C3C1861DBD34203F8171E5E197618A1520DC7EF9E2AC4ABF4"
+              "finding"      : "6A0A167FE78B0781B3D98782DF5C662B702E0B69493FE414C814D9CD82AF97DA"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "haute-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "haute-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (33)"
+              "severity"     : "OK",
+              "finding"      : "353 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "haute-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-21 23:00"
+              "finding"      : "2024-09-02 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "haute-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-09-16 21:59"
+              "severity"     : "OK",
+              "finding"      : "2025-09-02 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -374,14 +374,14 @@
               "ip"           : "haute-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "haute-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -500,7 +500,7 @@
               "ip"           : "haute-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723643291"
+              "finding"      : "1726321639"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=002BEA6539C4A61C3C1861DBD34203F8171E5E197618A1520DC7EF9E2AC4ABF4"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=6A0A167FE78B0781B3D98782DF5C662B702E0B69493FE414C814D9CD82AF97DA"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "haute-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "90"
           }
 ]
