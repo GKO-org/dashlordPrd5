@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Aug 14 14:22:13 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ih2ef.gouv.fr
+# Nmap 7.92 scan initiated Sat Sep 14 14:12:20 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ih2ef.gouv.fr
 Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Status: Up
-Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Ports: 24/closed/tcp//priv-mail///, 80/open/tcp//tcpwrapped///, 443/open/tcp//ssl|tcpwrapped///, 541/closed/tcp//uucp-rlogin///, 765/closed/tcp//webster///, 1114/closed/tcp//mini-sql///, 1311/closed/tcp//rxmon///, 1783/closed/tcp//unknown///, 1900/closed/tcp//upnp///, 3052/closed/tcp//powerchute///, 3333/closed/tcp//dec-notes///, 4111/closed/tcp//xgrid///, 4125/closed/tcp//rww///, 5030/closed/tcp//surfpass///, 5200/closed/tcp//targus-getdata///, 5269/closed/tcp//xmpp-server///, 5810/closed/tcp//unknown///, 6666/closed/tcp//irc///, 7778/closed/tcp//interwise///, 8083/closed/tcp//us-srv///, 8181/closed/tcp//intermapper///, 9418/closed/tcp//git///, 10025/closed/tcp//unknown///	Ignored State: filtered (977)
-# Nmap done at Wed Aug 14 14:23:13 2024 -- 1 IP address (1 host up) scanned in 59.50 seconds
+Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Ports: 80/open/tcp//tcpwrapped///	Ignored State: filtered (999)
+# Nmap done at Sat Sep 14 14:15:07 2024 -- 1 IP address (1 host up) scanned in 166.89 seconds
