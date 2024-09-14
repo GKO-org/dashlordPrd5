@@ -199,7 +199,7 @@
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "77 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (46)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-10-30 22:59"
           }
 ,         {
@@ -500,7 +500,7 @@
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723642304"
+              "finding"      : "1726320670"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -1063,6 +1063,6 @@
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "55"
           }
 ]
