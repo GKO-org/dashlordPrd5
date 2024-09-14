@@ -339,7 +339,7 @@
               "ip"           : "igas.gouv.fr/185.194.83.89",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "325 >= 60 days"
+              "finding"      : "266 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,21 +493,21 @@
               "ip"           : "igas.gouv.fr/185.194.83.89",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-164483 seconds from localtime"
+              "finding"      : "-99601 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "igas.gouv.fr/185.194.83.89",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721057630"
+              "finding"      : "1726215912"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "igas.gouv.fr/185.194.83.89",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "7731 seconds"
+              "finding"      : "7158 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -599,7 +599,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cache: HITX-Cache-Hits: 46"
+              "finding"      : "X-Cache: HITX-Cache-Hits: 56"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1098,6 +1098,6 @@
               "ip"           : "igas.gouv.fr/185.194.83.89",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "51"
+              "finding"      : "52"
           }
 ]

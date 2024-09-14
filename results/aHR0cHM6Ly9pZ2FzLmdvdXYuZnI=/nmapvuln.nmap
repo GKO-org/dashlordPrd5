@@ -1,23 +1,13 @@
-# Nmap 7.92 scan initiated Wed Jul 17 15:24:38 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln igas.gouv.fr
+# Nmap 7.92 scan initiated Sat Sep 14 14:05:04 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln igas.gouv.fr
 Nmap scan report for igas.gouv.fr (185.194.83.89)
-Host is up (0.080s latency).
+Host is up (0.078s latency).
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE   VERSION
 80/tcp  open   http
 | fingerprint-strings: 
-|   FourOhFourRequest: 
-|     HTTP/1.0 302 Moved Temporarily
-|     Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
-|     Connection: close
-|     Content-Length: 0
-|   GetRequest, HTTPOptions, RTSPRequest: 
+|   GetRequest: 
 |     HTTP/1.0 302 Moved Temporarily
 |     Location: https:///
-|     Connection: close
-|     Content-Length: 0
-|   SIPOptions: 
-|     HTTP/1.0 302 Moved Temporarily
-|     Location: https://sip:nm
 |     Connection: close
 |_    Content-Length: 0
 113/tcp closed ident
@@ -25,14 +15,14 @@ PORT    STATE  SERVICE   VERSION
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.1 400 Bad Request
-|     Date: Wed, 17 Jul 2024 15:24:57 GMT
+|     Date: Sat, 14 Sep 2024 14:05:24 GMT
 |     Content-Length: 226
 |     Content-Type: text/html; charset=iso-8859-1
 |     Age: 0
 |     X-Cache: MISS
 |     X-Cache-Hits: 0
 |     Connection: close
-|     Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!l5oW/wMG9Q3fsohWDPlD0yXzT0UGhlWzBGnBHjsslUzMcdtB5D6gd9tpLrMnoItsVhdqWqXvGmw2YDdO3Pq6zRXINMM=; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!+5TaEgXwY6tld1NWDPlD0yXzT0UGhrCTvOQoVHHEnSXsYy6BjY+AOr+XRLQDzqqFyZ46iIXBPDJygbw5ETFNalrZ7rU=; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 |     <html><head>
@@ -44,14 +34,14 @@ PORT    STATE  SERVICE   VERSION
 |     </body></html>
 |   GetRequest: 
 |     HTTP/1.1 400 Bad Request
-|     Date: Wed, 17 Jul 2024 15:24:57 GMT
+|     Date: Sat, 14 Sep 2024 14:05:24 GMT
 |     Content-Length: 226
 |     Content-Type: text/html; charset=iso-8859-1
 |     Age: 0
 |     X-Cache: MISS
 |     X-Cache-Hits: 0
 |     Connection: close
-|     Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!2k8HPJuxdDpX+w1WDPlD0yXzT0UGhoWrYrSuzuJqNiFfcQm0su01IyRFUKa/vUOXlJ0me6/IDESaBYxCv1x06lqHaxc=; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!9ql4WQ5tBkizlXVWDPlD0yXzT0UGhn4cxe8DBBWoJ0z8RgK3uMY2DM79QpND5Q/m+Z0Z3zFnHUHCMaHd1BnySvNnU7U=; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 |     <html><head>
@@ -63,14 +53,14 @@ PORT    STATE  SERVICE   VERSION
 |     </body></html>
 |   HTTPOptions: 
 |     HTTP/1.1 400 Bad Request
-|     Date: Wed, 17 Jul 2024 15:24:57 GMT
+|     Date: Sat, 14 Sep 2024 14:05:24 GMT
 |     Content-Length: 226
 |     Content-Type: text/html; charset=iso-8859-1
 |     Age: 0
 |     X-Cache: MISS
 |     X-Cache-Hits: 0
 |     Connection: close
-|     Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!ffmvAjA5aK8cTWRWDPlD0yXzT0UGhqu0cd/ElLZ74OVM4pGIsGT9DgFCElu3zb4ly58xpr3Xhjao1ImhK/NuScO7eok=; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!PdjnjgHMf18EGUdWDPlD0yXzT0UGhlS7idf+ceEOYM5UZZWma9pgzkexYF63nvXxRrOTuK67KXtZoOyS8OsAZ72Ngmw=; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 |     <html><head>
@@ -82,56 +72,48 @@ PORT    STATE  SERVICE   VERSION
 |_    </body></html>
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=7/17%Time=6697E242%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=9/14%Time=66E5981D%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\x
-SF:20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%r
-SF:(HTTPOptions,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\
-SF:x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%
-SF:r(RTSPRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:
-SF:\x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")
-SF:%r(FourOhFourRequest,80,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLo
-SF:cation:\x20https:///nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nConnection:
-SF:\x20close\r\nContent-Length:\x200\r\n\r\n")%r(SIPOptions,62,"HTTP/1\.0\
-SF:x20302\x20Moved\x20Temporarily\r\nLocation:\x20https://sip:nm\r\nConnec
-SF:tion:\x20close\r\nContent-Length:\x200\r\n\r\n");
+SF:20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=7/17%Time=6697E249%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=9/14%Time=66E59824%P=x86_64-alpine-linux
 SF:-musl%r(GetRequest,29A,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20
-SF:Wed,\x2017\x20Jul\x202024\x2015:24:57\x20GMT\r\nContent-Length:\x20226\
+SF:Sat,\x2014\x20Sep\x202024\x2014:05:24\x20GMT\r\nContent-Length:\x20226\
 SF:r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\nAge:\x200\r\nX-
 SF:Cache:\x20MISS\r\nX-Cache-Hits:\x200\r\nConnection:\x20close\r\nSet-Coo
-SF:kie:\x20BIGipServerpool-igas-production2\.cegedim\.cloud-TCP80=!2k8HPJu
-SF:xdDpX\+w1WDPlD0yXzT0UGhoWrYrSuzuJqNiFfcQm0su01IyRFUKa/vUOXlJ0me6/IDESaB
-SF:YxCv1x06lqHaxc=;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-
+SF:kie:\x20BIGipServerpool-igas-production2\.cegedim\.cloud-TCP80=!9ql4WQ5
+SF:tBkizlXVWDPlD0yXzT0UGhn4cxe8DBBWoJ0z8RgK3uMY2DM79QpND5Q/m\+Z0Z3zFnHUHCM
+SF:aHd1BnySvNnU7U=;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-
 SF:Security:\x20max-age=31536000;\x20includeSubDomains\r\n\r\n<!DOCTYPE\x2
 SF:0HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\
 SF:n<title>400\x20Bad\x20Request</title>\n</head><body>\n<h1>Bad\x20Reques
 SF:t</h1>\n<p>Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x20s
 SF:erver\x20could\x20not\x20understand\.<br\x20/>\n</p>\n</body></html>\n"
-SF:)%r(HTTPOptions,29A,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Wed
-SF:,\x2017\x20Jul\x202024\x2015:24:57\x20GMT\r\nContent-Length:\x20226\r\n
+SF:)%r(HTTPOptions,29A,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sat
+SF:,\x2014\x20Sep\x202024\x2014:05:24\x20GMT\r\nContent-Length:\x20226\r\n
 SF:Content-Type:\x20text/html;\x20charset=iso-8859-1\r\nAge:\x200\r\nX-Cac
 SF:he:\x20MISS\r\nX-Cache-Hits:\x200\r\nConnection:\x20close\r\nSet-Cookie
-SF::\x20BIGipServerpool-igas-production2\.cegedim\.cloud-TCP80=!ffmvAjA5aK
-SF:8cTWRWDPlD0yXzT0UGhqu0cd/ElLZ74OVM4pGIsGT9DgFCElu3zb4ly58xpr3Xhjao1ImhK
-SF:/NuScO7eok=;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-Secu
-SF:rity:\x20max-age=31536000;\x20includeSubDomains\r\n\r\n<!DOCTYPE\x20HTM
-SF:L\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<ti
-SF:tle>400\x20Bad\x20Request</title>\n</head><body>\n<h1>Bad\x20Request</h
-SF:1>\n<p>Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x20serve
-SF:r\x20could\x20not\x20understand\.<br\x20/>\n</p>\n</body></html>\n")%r(
-SF:FourOhFourRequest,29A,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20W
-SF:ed,\x2017\x20Jul\x202024\x2015:24:57\x20GMT\r\nContent-Length:\x20226\r
-SF:\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\nAge:\x200\r\nX-C
-SF:ache:\x20MISS\r\nX-Cache-Hits:\x200\r\nConnection:\x20close\r\nSet-Cook
-SF:ie:\x20BIGipServerpool-igas-production2\.cegedim\.cloud-TCP80=!l5oW/wMG
-SF:9Q3fsohWDPlD0yXzT0UGhlWzBGnBHjsslUzMcdtB5D6gd9tpLrMnoItsVhdqWqXvGmw2YDd
-SF:O3Pq6zRXINMM=;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-Se
-SF:curity:\x20max-age=31536000;\x20includeSubDomains\r\n\r\n<!DOCTYPE\x20H
-SF:TML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<
-SF:title>400\x20Bad\x20Request</title>\n</head><body>\n<h1>Bad\x20Request<
-SF:/h1>\n<p>Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x20ser
-SF:ver\x20could\x20not\x20understand\.<br\x20/>\n</p>\n</body></html>\n");
+SF::\x20BIGipServerpool-igas-production2\.cegedim\.cloud-TCP80=!PdjnjgHMf1
+SF:8EGUdWDPlD0yXzT0UGhlS7idf\+ceEOYM5UZZWma9pgzkexYF63nvXxRrOTuK67KXtZoOyS
+SF:8OsAZ72Ngmw=;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-Sec
+SF:urity:\x20max-age=31536000;\x20includeSubDomains\r\n\r\n<!DOCTYPE\x20HT
+SF:ML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<t
+SF:itle>400\x20Bad\x20Request</title>\n</head><body>\n<h1>Bad\x20Request</
+SF:h1>\n<p>Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x20serv
+SF:er\x20could\x20not\x20understand\.<br\x20/>\n</p>\n</body></html>\n")%r
+SF:(FourOhFourRequest,29A,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20
+SF:Sat,\x2014\x20Sep\x202024\x2014:05:24\x20GMT\r\nContent-Length:\x20226\
+SF:r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\nAge:\x200\r\nX-
+SF:Cache:\x20MISS\r\nX-Cache-Hits:\x200\r\nConnection:\x20close\r\nSet-Coo
+SF:kie:\x20BIGipServerpool-igas-production2\.cegedim\.cloud-TCP80=!\+5TaEg
+SF:XwY6tld1NWDPlD0yXzT0UGhrCTvOQoVHHEnSXsYy6BjY\+AOr\+XRLQDzqqFyZ46iIXBPDJ
+SF:ygbw5ETFNalrZ7rU=;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transpor
+SF:t-Security:\x20max-age=31536000;\x20includeSubDomains\r\n\r\n<!DOCTYPE\
+SF:x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head
+SF:>\n<title>400\x20Bad\x20Request</title>\n</head><body>\n<h1>Bad\x20Requ
+SF:est</h1>\n<p>Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x2
+SF:0server\x20could\x20not\x20understand\.<br\x20/>\n</p>\n</body></html>\
+SF:n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Wed Jul 17 15:27:21 2024 -- 1 IP address (1 host up) scanned in 163.10 seconds
+# Nmap done at Sat Sep 14 14:07:48 2024 -- 1 IP address (1 host up) scanned in 163.28 seconds
