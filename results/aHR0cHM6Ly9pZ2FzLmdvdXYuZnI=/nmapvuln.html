@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln igas.gouv.fr</pre>
-<p class="lead">Sat Sep 14 14:05:04 2024 – Sat Sep 14 14:07:48 2024<br>1 hosts scanned.
+<p class="lead">Mon Oct 14 14:15:43 2024 – Mon Oct 14 14:18:28 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -119,9 +119,19 @@
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  GetRequest: 
+  FourOhFourRequest: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
+    Connection: close
+    Content-Length: 0
+  GetRequest, HTTPOptions, RTSPRequest: 
     HTTP/1.0 302 Moved Temporarily
     Location: https:///
+    Connection: close
+    Content-Length: 0
+  SIPOptions: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https://sip:nm
     Connection: close
     Content-Length: 0</pre>
 </td></tr>
@@ -148,14 +158,14 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Sat, 14 Sep 2024 14:05:24 GMT
+    Date: Mon, 14 Oct 2024 14:16:04 GMT
     Content-Length: 226
     Content-Type: text/html; charset=iso-8859-1
     Age: 0
     X-Cache: MISS
     X-Cache-Hits: 0
     Connection: close
-    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!+5TaEgXwY6tld1NWDPlD0yXzT0UGhrCTvOQoVHHEnSXsYy6BjY+AOr+XRLQDzqqFyZ46iIXBPDJygbw5ETFNalrZ7rU=; path=/; Httponly; Secure
+    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!YLCgH61HiPQ3TldWDPlD0yXzT0UGhopgLrIQncM3v/SRGHNZr18KQ9IOG4peTSFGS520yZCHNNvoRO6+Pt+FV04jYeo=; path=/; Httponly; Secure
     Strict-Transport-Security: max-age=31536000; includeSubDomains
     &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
     &lt;html&gt;&lt;head&gt;
@@ -167,14 +177,14 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Sat, 14 Sep 2024 14:05:24 GMT
+    Date: Mon, 14 Oct 2024 14:16:03 GMT
     Content-Length: 226
     Content-Type: text/html; charset=iso-8859-1
     Age: 0
     X-Cache: MISS
     X-Cache-Hits: 0
     Connection: close
-    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!9ql4WQ5tBkizlXVWDPlD0yXzT0UGhn4cxe8DBBWoJ0z8RgK3uMY2DM79QpND5Q/m+Z0Z3zFnHUHCMaHd1BnySvNnU7U=; path=/; Httponly; Secure
+    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!apz1IJON3RwL9EdWDPlD0yXzT0UGhlp7HT3y5/NJ/GJI0DZOsEASOQjVrdzbBXDylLAE62u12vMTBQPH5PYL6XKxJzM=; path=/; Httponly; Secure
     Strict-Transport-Security: max-age=31536000; includeSubDomains
     &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
     &lt;html&gt;&lt;head&gt;
@@ -186,14 +196,14 @@
     &lt;/body&gt;&lt;/html&gt;
   HTTPOptions: 
     HTTP/1.1 400 Bad Request
-    Date: Sat, 14 Sep 2024 14:05:24 GMT
+    Date: Mon, 14 Oct 2024 14:16:04 GMT
     Content-Length: 226
     Content-Type: text/html; charset=iso-8859-1
     Age: 0
     X-Cache: MISS
     X-Cache-Hits: 0
     Connection: close
-    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!PdjnjgHMf18EGUdWDPlD0yXzT0UGhlS7idf+ceEOYM5UZZWma9pgzkexYF63nvXxRrOTuK67KXtZoOyS8OsAZ72Ngmw=; path=/; Httponly; Secure
+    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!NuSZXqK1Ge+W1C1WDPlD0yXzT0UGhnVbARABfITMZ2ddyWMArZ+XZLdYtWuhniy9xpJp4COOzmcGIjRvRSWg42ls9eo=; path=/; Httponly; Secure
     Strict-Transport-Security: max-age=31536000; includeSubDomains
     &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
     &lt;html&gt;&lt;head&gt;
