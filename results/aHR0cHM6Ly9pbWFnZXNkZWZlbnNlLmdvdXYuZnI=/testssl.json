@@ -206,7 +206,7 @@
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -269,7 +269,7 @@
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "87F29FCFD4B747550E746AE40BBD7089"
+              "finding"      : "CEE440725B4C96020E14F5CFCFE9A2D8"
           }
 ,         {
               "id"           : "cert_serialNumberLen <hostCert#1>",
@@ -283,21 +283,21 @@
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6417906F049C877C61289AEE29BC94041091DA0B"
+              "finding"      : "060D1375EFBF066615774EF9780E60151E61E6FF"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256 <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "FA86DC48D39F38D2A7B30190DE9C51D4FD6892E1079B816BB81EA05F1DE82860"
+              "finding"      : "E3B0D04964D868004D26AC33C2B0020C124A22178A08D1D94E7270B470CDA79D"
           }
 ,         {
               "id"           : "cert <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFTzCCBDegAwIBAgIRAIfyn8/Ut0dVDnRq5Au9cIkwDQYJKoZIhvcNAQELBQAwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV1IxMB4XDTI0MDcxNzE5NTI1NFoXDTI0MTAxNTE5NTI1M1owIDEeMBwGA1UEAxMVaW1hZ2VzZGVmZW5zZS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkdbv7HkOg6VFPBuOkMztfcc9sOvOGeQgfbrpjdYuKvpjEP1oLRX/9eIBYc26zhcPWW5Qyrt1uWJSd67Hjn5JUtyyaetCaAntJK/dU9ebbSjSWhq/UZ78kzbWq6M/TgGUNp2QswFt74Ic+Q/tDL6rLqKytHJKRIOGtr8pGiAMpUWli05pgDbEvcFxVKpOZPAWwY6z44SurGpxBa15OPsSx+FIpRqAmmNux/7oCYzMWO0mxI8LgmafHuGQD5dLES88vp++NduFLwXbogdLYPfgU/u91bfuqNdF4Y/lRDBMP4f30vi7dYSw6fko8zDgwXY2e4dzniOkn1319TOT2jg28wIDAQABo4ICZzCCAmMwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLTa6XkyYDBH1R0qrOT9SX5u6y+7MB8GA1UdIwQYMBaAFGZpSdTeKpyRA8+JDiS4DjADboguMF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93cjEvaF9JMCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93cjEuY3J0MDkGA1UdEQQyMDCCFWltYWdlc2RlZmVuc2UuZ291di5mcoIXKi5pbWFnZXNkZWZlbnNlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd3IxL3VxODZLSndfMnRRLmNybDCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2ANq2v2s/tbYin5vCu1xr6HCRcWy7UYSFNL2kPTBI1/urAAABkMJ4MS0AAAQDAEcwRQIgZuRvL3LYEi0RX12DH2L+qTt8GkJLYfAWCDFtZp7XsaECIQDXaokUlH1MwuWLSxfGxqwqV28Azg00ye5rImDY+20miwB2AHb/iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0AAABkMJ4MTEAAAQDAEcwRQIgI+R2VQFdQv2cSKzOOe1u6DKzYcEoVkNWGieY/ofyVw4CIQDlLD+OH5zRQUc9rDoj4S1/MoXEumdFEUDOD+TyBXTI5zANBgkqhkiG9w0BAQsFAAOCAQEAYjvyUswXmHNfVgJp+aNYJQ+esaPfvqQrCAfCwwKxmkbIonqfObkIZWFi47dYZs7Ua5Oay340MAsZRYkWrIfQvKvh5IEJ8zwNGS42po+JDG3FI8xu7STYJpKsoThObsQg57rbeiupiRz6CR8GCJzdwgdJMfvlGYa1RPGWOyaMc0JXRYxRHIhRB3Ap4tIkpSFpJ0Sx2UJLMKAczIkFyUlmPoLTY/HOzRRz8tp8Bz6YZ16pRdwOE3HL/8XS8LT1Ib/mfpoj4EZEOG/6g4s9L13sqQwPSWkDhmYtpiM39C1k/aJRWBOymPLGIUxND33j3vslkgtSCba81Jzb1XtT7jPfjw==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFUDCCBDigAwIBAgIRAM7kQHJbTJYCDhT1z8/potgwDQYJKoZIhvcNAQELBQAwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV1IxMB4XDTI0MDkxNDIxMTI1OFoXDTI0MTIxMzIxMTI1N1owIDEeMBwGA1UEAxMVaW1hZ2VzZGVmZW5zZS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwNtcctesiL6+AmQeNKgJrjOfS+eKYbmOvItAjCfTdXw0MlaXikCYB7ZMDzZLF1U+UZtZahyFLbFfhWF7YB8k1W2dBd63vA2rjUBgN/bGz5xtAEYulsJujG6Bedhi6jWL5htzd9F9Oenl0cNdRjObgDW6W5mDsEcy+YKU7YlPOGPbruRFOuulvy0ykwVMRFG6Vnw8Pj+XcfAfB0HY6Z5sDFj0efb9YEmVtyQWe3+uGPIxhwZPjHdTY0fw+0L60tl5lw/ARFqYSwXEJTBsoAHkpkChOmuuAbkHvPlDIkyH6nfKUyR16bcbn0OS5yF/aVAljcVyX6NwVdF5uayOfKhaewIDAQABo4ICaDCCAmQwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFDmaZNll1fWaF/LpI8n5KrOkOuxRMB8GA1UdIwQYMBaAFGZpSdTeKpyRA8+JDiS4DjADboguMF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93cjEvenVRMCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93cjEuY3J0MDkGA1UdEQQyMDCCFWltYWdlc2RlZmVuc2UuZ291di5mcoIXKi5pbWFnZXNkZWZlbnNlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd3IxL1g5NVdhMGpfSnAwLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AHb/iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0AAABkfKYr8UAAAQDAEcwRQIhAIgMKUrCWAY3rYcd7Rn1huXdvVImhUic5mB3iTU+bMxVAiBNmgIwXsetBdtF3j/M98xIfrzlMiAeNCtAyR9HtiveDAB3ANq2v2s/tbYin5vCu1xr6HCRcWy7UYSFNL2kPTBI1/urAAABkfKYr8cAAAQDAEgwRgIhAKZr3y8ZevvY30AuOhyt5Bqn/RGqXUbt384E/O/GruQ7AiEAnLKxtdfwgfw1JTwxEZOCDpu7kZ+Ws3zykNNclg+u6fYwDQYJKoZIhvcNAQELBQADggEBAApco3lojzOoU8e76QOytJyP0DWXhSzyMF6vRT5eSJP5N8hEzZbhj6EuJZ/CXI1bp3Ikin3XUSReqBcfw0ASyBhzYATpoqCxBcjtMMhqI6dsSnxCHh4kzwQN59lx1P3070GGwzHR4GpUeiLvpNneBj9xbJXXzTTDPONBYIxwFrRHZZAhMWQvfYDS0u7V3GCJCaeHAcuBOM6rs1kNY28cHXQWMpXaREvkl7u9hrHV/4mBWcyUOxmXPyfdZB9x287KVqP+E/dc17y8m0ogt9m8X21wniy+CX71WI+kwqtShmKIr8PSJwjeiX2yrKtt9JrqD6as4eWlDKMwNwfL0AplDxc=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName <hostCert#1>",
@@ -345,22 +345,22 @@
               "id"           : "cert_expirationStatus <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (31)"
+              "severity"     : "OK",
+              "finding"      : "60 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-07-17 19:52"
+              "finding"      : "2024-09-14 21:12"
           }
 ,         {
               "id"           : "cert_notAfter <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-10-15 19:52"
+              "severity"     : "OK",
+              "finding"      : "2024-12-13 21:12"
           }
 ,         {
               "id"           : "cert_extlifeSpan <hostCert#1>",
@@ -381,14 +381,14 @@
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://c.pki.goog/wr1/uq86KJw_2tQ.crl"
+              "finding"      : "http://c.pki.goog/wr1/X95Wa0j_Jp0.crl"
           }
 ,         {
               "id"           : "cert_ocspURL <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://o.pki.goog/s/wr1/h_I"
+              "finding"      : "http://o.pki.goog/s/wr1/zuQ"
           }
 ,         {
               "id"           : "OCSP_stapling <hostCert#1>",
@@ -570,7 +570,7 @@
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "53FE906AB08B67520EC0ECF4316C51FC"
+              "finding"      : "E665EAB1FF69937D0D7785C101099B89"
           }
 ,         {
               "id"           : "cert_serialNumberLen <hostCert#2>",
@@ -584,21 +584,21 @@
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "CE9BE697E8E6938FF64C975A0ED2C40DC16D43F2"
+              "finding"      : "22CFC2634220B61696B873ACDE7C23B7CF91D784"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256 <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0677DF1E95237246A38F7CA0FF2031BFCB78D7AB065CAA278557C22ED3D9E1E7"
+              "finding"      : "2A8E2594647DB10DB7E47921836242A5441F1808AB9A97D0EC65994D80CDB6DA"
           }
 ,         {
               "id"           : "cert <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDwTCCA2egAwIBAgIQU/6QarCLZ1IOwOz0MWxR/DAKBggqhkjOPQQDAjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwHhcNMjQwNzE3MTk1MzA0WhcNMjQxMDE1MTk1MzAzWjAgMR4wHAYDVQQDExVpbWFnZXNkZWZlbnNlLmdvdXYuZnIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQUUN8zqY50FYmBlQoHl82eMa9XYFckp1U3V2n56EknSQhdSJhNFlSAuCiVdN7c1vHDXf3Je//Iv2Fis8Fqve/co4ICZjCCAmIwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLqzGkgMJLfT7xYnT4vdAipDQBVNMB8GA1UdIwQYMBaAFJB3kjVnxP+ozKnme9mAeXvMk/k4MF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93ZTEvVV80MCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93ZTEuY3J0MDkGA1UdEQQyMDCCFWltYWdlc2RlZmVuc2UuZ291di5mcoIXKi5pbWFnZXNkZWZlbnNlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd2UxLzlObXBrV1NvRU1jLmNybDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AO7N0GTV2xrOxVy3nbTNE6Iyh0Z8vOzew1FIWUZxH7WbAAABkMJ4Vm0AAAQDAEcwRQIhAIvt8BupuH8o8Y4QX/QNYo628ulsF7uwIgVo+uNBsU0YAiBJuqENp9MfG3HHHfj55rL7L2pNBD9whykV0C/RnYxlygB1AEiw42vapkc0D+VqAvqdMOscUgHLVt0sgdm7v6s52IRzAAABkMJ4VokAAAQDAEYwRAIgGR2fECGiSDtibUoG0Ql4SJ/zCWQ7mqQXf7cHuBhkO0YCIE0a+QTlIjFiLdr+KvfyJVRojI3jO3nj/iR0ajisFfSAMAoGCCqGSM49BAMCA0gAMEUCIQCWinmylXJBaa/kXSlrFpTEK3jBv+wDXFSiWZELd2KHbgIgCkmOn8+qVKpaS1gw7rwz4zmnD5KMk58hGGusW4oQueg=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDxDCCA2qgAwIBAgIRAOZl6rH/aZN9DXeFwQEJm4kwCgYIKoZIzj0EAwIwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV0UxMB4XDTI0MDkxNDIxMTMyN1oXDTI0MTIxMzIxMTMyNlowIDEeMBwGA1UEAxMVaW1hZ2VzZGVmZW5zZS5nb3V2LmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEnms+LbJ/L7F3YAorOxprApZmuaxxjmPlEPrZHyOZt6bLuxnTNAWof7NLIHNvM1P3VB2Tzf/ycKvRms8n4VDzJqOCAmgwggJkMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRfktsgTgWZ9igES77NS8tIxqY3WTAfBgNVHSMEGDAWgBSQd5I1Z8T/qMyp5nvZgHl7zJP5ODBeBggrBgEFBQcBAQRSMFAwJwYIKwYBBQUHMAGGG2h0dHA6Ly9vLnBraS5nb29nL3Mvd2UxLzVtVTAlBggrBgEFBQcwAoYZaHR0cDovL2kucGtpLmdvb2cvd2UxLmNydDA5BgNVHREEMjAwghVpbWFnZXNkZWZlbnNlLmdvdXYuZnKCFyouaW1hZ2VzZGVmZW5zZS5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jLnBraS5nb29nL3dlMS9fLTRpRndmQ2FjTS5jcmwwggEFBgorBgEEAdZ5AgQCBIH2BIHzAPEAdwDatr9rP7W2Ip+bwrtca+hwkXFsu1GEhTS9pD0wSNf7qwAAAZHymSZfAAAEAwBIMEYCIQDwVdHdFBSjyrvVX1wK0woR407JgRZq/NNgg6kZNynwsgIhAK+viWIhFe30f6c3Re8MqKnssJN7VsHuVvmNwm+fw2XCAHYA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGR8pklSQAABAMARzBFAiEA2GuVgIa3CPRkzSKs0E7TO5uVbFZiPBu95fAB+ged9uUCIGPsS4i+ahRjeNAKoUGwIVVYNH0uP3a99IJG2OOs5qPwMAoGCCqGSM49BAMCA0gAMEUCIEZRcKuPCvDwshS8ZRMSbLwdjm3wsul4AdrIEXTmrs45AiEA6W2W9xFZEBRLVkKfrEbylpzehLYowUCrWlcKDZGbMbE=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName <hostCert#2>",
@@ -646,22 +646,22 @@
               "id"           : "cert_expirationStatus <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (31)"
+              "severity"     : "OK",
+              "finding"      : "60 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-07-17 19:53"
+              "finding"      : "2024-09-14 21:13"
           }
 ,         {
               "id"           : "cert_notAfter <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-10-15 19:53"
+              "severity"     : "OK",
+              "finding"      : "2024-12-13 21:13"
           }
 ,         {
               "id"           : "cert_extlifeSpan <hostCert#2>",
@@ -682,14 +682,14 @@
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://c.pki.goog/we1/9NmpkWSoEMc.crl"
+              "finding"      : "http://c.pki.goog/we1/_-4iFwfCacM.crl"
           }
 ,         {
               "id"           : "cert_ocspURL <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://o.pki.goog/s/we1/U_4"
+              "finding"      : "http://o.pki.goog/s/we1/5mU"
           }
 ,         {
               "id"           : "OCSP_stapling <hostCert#2>",
@@ -857,7 +857,7 @@
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726323447"
+              "finding"      : "1728916078"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -962,7 +962,7 @@
               "ip"           : "imagesdefense.gouv.fr/172.67.4.14",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "font-src https://fonts.gstatic.com https://ws.colissimo.fr payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com data: 'self' 'unsafe-inline'; form-action secure.authorize.net test.authorize.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com https://plumrocket.com 'self' 'unsafe-inline'; frame-ancestors 'self'; frame-src fast.amc.demdex.net *.adobe.com secure.authorize.net test.authorize.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com player.vimeo.com *.youtube.com https://www.google.com/recaptcha/ https://plumrocket.com https://www.youtube.com https://form.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com 'self' 'unsafe-inline'; img-src assets.adobedtm.com amcglobal.sc.omtrdc.net dpm.demdex.net cm.everesttech.net *.adobe.com widgets.magentocommerce.com data: *.vimeocdn.com i.ytimg.com https://maps.googleapis.com https://maps.gstatic.com https://ws.colissimo.fr https://*.tile.openstreetmap.fr payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com data: 'self' 'unsafe-inline'; script-src assets.adobedtm.com *.adobe.com secure.authorize.net test.authorize.net geostag.cardinalcommerce.com 1eafstag.cardinalcommerce.com geoapi.cardinalcommerce.com 1eafapi.cardinalcommerce.com songbird.cardinalcommerce.com includestest.ccdc02.com s.ytimg.com www.googleapis.com vimeo.com www.vimeo.com *.vimeocdn.com https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ https://maps.googleapis.com https://www.google.com https://www.gstatic.com https://ws.colissimo.fr https://api.mapbox.com https://*.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com matomo.thewetailers.fr analytics.ecpad.fr 'self' 'unsafe-inline' 'unsafe-eval'; style-src *.adobe.com https://fonts.googleapis.com https://ws.colissimo.fr https://api.mapbox.com https://*.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com 'self' 'unsafe-inline'; object-src 'self' 'unsafe-inline'; media-src *.adobe.com 'self' 'unsafe-inline'; manifest-src 'self' 'unsafe-inline'; connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com https://nominatim.openstreetmap.org payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com maps.googleapis.com 'self' 'unsafe-inline'; child-src http: https: blob: 'self' 'unsafe-inline'; default-src 'self' 'unsafe-inline' 'unsafe-eval'; base-uri 'self' 'unsafe-inline';"
+              "finding"      : "font-src https://fonts.gstatic.com https://ws.colissimo.fr payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com data: 'self' 'unsafe-inline'; form-action secure.authorize.net test.authorize.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com https://plumrocket.com 'self' 'unsafe-inline'; frame-ancestors 'self'; frame-src fast.amc.demdex.net *.adobe.com secure.authorize.net test.authorize.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com player.vimeo.com *.youtube.com https://www.google.com/recaptcha/ https://plumrocket.com https://www.youtube.com https://form.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com 'self' 'unsafe-inline'; img-src assets.adobedtm.com amcglobal.sc.omtrdc.net dpm.demdex.net cm.everesttech.net *.adobe.com widgets.magentocommerce.com data: *.vimeocdn.com i.ytimg.com https://maps.googleapis.com https://maps.gstatic.com https://ws.colissimo.fr https://*.tile.openstreetmap.fr https://*.onyourmap.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com data: 'self' 'unsafe-inline'; script-src assets.adobedtm.com *.adobe.com secure.authorize.net test.authorize.net geostag.cardinalcommerce.com 1eafstag.cardinalcommerce.com geoapi.cardinalcommerce.com 1eafapi.cardinalcommerce.com songbird.cardinalcommerce.com includestest.ccdc02.com s.ytimg.com www.googleapis.com vimeo.com www.vimeo.com *.vimeocdn.com https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ https://maps.googleapis.com https://www.google.com https://www.gstatic.com https://ws.colissimo.fr https://api.mapbox.com https://*.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com matomo.thewetailers.fr analytics.ecpad.fr 'self' 'unsafe-inline' 'unsafe-eval'; style-src *.adobe.com https://fonts.googleapis.com https://ws.colissimo.fr https://api.mapbox.com https://*.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com 'self' 'unsafe-inline'; object-src 'self' 'unsafe-inline'; media-src *.adobe.com 'self' 'unsafe-inline'; manifest-src 'self' 'unsafe-inline'; connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com https://ws.colissimo.fr https://maps.googleapis.com https://nominatim.openstreetmap.org https://*.onyourmap.com https://*.mapbox.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com maps.googleapis.com 'self' 'unsafe-inline'; child-src http: https: blob: 'self' 'unsafe-inline'; default-src 'self' 'unsafe-inline' 'unsafe-eval'; base-uri 'self' 'unsafe-inline';"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -1128,7 +1128,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=FA86DC48D39F38D2A7B30190DE9C51D4FD6892E1079B816BB81EA05F1DE82860"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E3B0D04964D868004D26AC33C2B0020C124A22178A08D1D94E7270B470CDA79D"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1769,7 +1769,7 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "87F29FCFD4B747550E746AE40BBD7089"
+              "finding"      : "CEE440725B4C96020E14F5CFCFE9A2D8"
           }
 ,         {
               "id"           : "cert_serialNumberLen <hostCert#1>",
@@ -1783,21 +1783,21 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6417906F049C877C61289AEE29BC94041091DA0B"
+              "finding"      : "060D1375EFBF066615774EF9780E60151E61E6FF"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256 <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "FA86DC48D39F38D2A7B30190DE9C51D4FD6892E1079B816BB81EA05F1DE82860"
+              "finding"      : "E3B0D04964D868004D26AC33C2B0020C124A22178A08D1D94E7270B470CDA79D"
           }
 ,         {
               "id"           : "cert <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFTzCCBDegAwIBAgIRAIfyn8/Ut0dVDnRq5Au9cIkwDQYJKoZIhvcNAQELBQAwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV1IxMB4XDTI0MDcxNzE5NTI1NFoXDTI0MTAxNTE5NTI1M1owIDEeMBwGA1UEAxMVaW1hZ2VzZGVmZW5zZS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkdbv7HkOg6VFPBuOkMztfcc9sOvOGeQgfbrpjdYuKvpjEP1oLRX/9eIBYc26zhcPWW5Qyrt1uWJSd67Hjn5JUtyyaetCaAntJK/dU9ebbSjSWhq/UZ78kzbWq6M/TgGUNp2QswFt74Ic+Q/tDL6rLqKytHJKRIOGtr8pGiAMpUWli05pgDbEvcFxVKpOZPAWwY6z44SurGpxBa15OPsSx+FIpRqAmmNux/7oCYzMWO0mxI8LgmafHuGQD5dLES88vp++NduFLwXbogdLYPfgU/u91bfuqNdF4Y/lRDBMP4f30vi7dYSw6fko8zDgwXY2e4dzniOkn1319TOT2jg28wIDAQABo4ICZzCCAmMwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLTa6XkyYDBH1R0qrOT9SX5u6y+7MB8GA1UdIwQYMBaAFGZpSdTeKpyRA8+JDiS4DjADboguMF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93cjEvaF9JMCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93cjEuY3J0MDkGA1UdEQQyMDCCFWltYWdlc2RlZmVuc2UuZ291di5mcoIXKi5pbWFnZXNkZWZlbnNlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd3IxL3VxODZLSndfMnRRLmNybDCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2ANq2v2s/tbYin5vCu1xr6HCRcWy7UYSFNL2kPTBI1/urAAABkMJ4MS0AAAQDAEcwRQIgZuRvL3LYEi0RX12DH2L+qTt8GkJLYfAWCDFtZp7XsaECIQDXaokUlH1MwuWLSxfGxqwqV28Azg00ye5rImDY+20miwB2AHb/iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0AAABkMJ4MTEAAAQDAEcwRQIgI+R2VQFdQv2cSKzOOe1u6DKzYcEoVkNWGieY/ofyVw4CIQDlLD+OH5zRQUc9rDoj4S1/MoXEumdFEUDOD+TyBXTI5zANBgkqhkiG9w0BAQsFAAOCAQEAYjvyUswXmHNfVgJp+aNYJQ+esaPfvqQrCAfCwwKxmkbIonqfObkIZWFi47dYZs7Ua5Oay340MAsZRYkWrIfQvKvh5IEJ8zwNGS42po+JDG3FI8xu7STYJpKsoThObsQg57rbeiupiRz6CR8GCJzdwgdJMfvlGYa1RPGWOyaMc0JXRYxRHIhRB3Ap4tIkpSFpJ0Sx2UJLMKAczIkFyUlmPoLTY/HOzRRz8tp8Bz6YZ16pRdwOE3HL/8XS8LT1Ib/mfpoj4EZEOG/6g4s9L13sqQwPSWkDhmYtpiM39C1k/aJRWBOymPLGIUxND33j3vslkgtSCba81Jzb1XtT7jPfjw==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFUDCCBDigAwIBAgIRAM7kQHJbTJYCDhT1z8/potgwDQYJKoZIhvcNAQELBQAwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV1IxMB4XDTI0MDkxNDIxMTI1OFoXDTI0MTIxMzIxMTI1N1owIDEeMBwGA1UEAxMVaW1hZ2VzZGVmZW5zZS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwNtcctesiL6+AmQeNKgJrjOfS+eKYbmOvItAjCfTdXw0MlaXikCYB7ZMDzZLF1U+UZtZahyFLbFfhWF7YB8k1W2dBd63vA2rjUBgN/bGz5xtAEYulsJujG6Bedhi6jWL5htzd9F9Oenl0cNdRjObgDW6W5mDsEcy+YKU7YlPOGPbruRFOuulvy0ykwVMRFG6Vnw8Pj+XcfAfB0HY6Z5sDFj0efb9YEmVtyQWe3+uGPIxhwZPjHdTY0fw+0L60tl5lw/ARFqYSwXEJTBsoAHkpkChOmuuAbkHvPlDIkyH6nfKUyR16bcbn0OS5yF/aVAljcVyX6NwVdF5uayOfKhaewIDAQABo4ICaDCCAmQwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFDmaZNll1fWaF/LpI8n5KrOkOuxRMB8GA1UdIwQYMBaAFGZpSdTeKpyRA8+JDiS4DjADboguMF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93cjEvenVRMCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93cjEuY3J0MDkGA1UdEQQyMDCCFWltYWdlc2RlZmVuc2UuZ291di5mcoIXKi5pbWFnZXNkZWZlbnNlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd3IxL1g5NVdhMGpfSnAwLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AHb/iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0AAABkfKYr8UAAAQDAEcwRQIhAIgMKUrCWAY3rYcd7Rn1huXdvVImhUic5mB3iTU+bMxVAiBNmgIwXsetBdtF3j/M98xIfrzlMiAeNCtAyR9HtiveDAB3ANq2v2s/tbYin5vCu1xr6HCRcWy7UYSFNL2kPTBI1/urAAABkfKYr8cAAAQDAEgwRgIhAKZr3y8ZevvY30AuOhyt5Bqn/RGqXUbt384E/O/GruQ7AiEAnLKxtdfwgfw1JTwxEZOCDpu7kZ+Ws3zykNNclg+u6fYwDQYJKoZIhvcNAQELBQADggEBAApco3lojzOoU8e76QOytJyP0DWXhSzyMF6vRT5eSJP5N8hEzZbhj6EuJZ/CXI1bp3Ikin3XUSReqBcfw0ASyBhzYATpoqCxBcjtMMhqI6dsSnxCHh4kzwQN59lx1P3070GGwzHR4GpUeiLvpNneBj9xbJXXzTTDPONBYIxwFrRHZZAhMWQvfYDS0u7V3GCJCaeHAcuBOM6rs1kNY28cHXQWMpXaREvkl7u9hrHV/4mBWcyUOxmXPyfdZB9x287KVqP+E/dc17y8m0ogt9m8X21wniy+CX71WI+kwqtShmKIr8PSJwjeiX2yrKtt9JrqD6as4eWlDKMwNwfL0AplDxc=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName <hostCert#1>",
@@ -1845,22 +1845,22 @@
               "id"           : "cert_expirationStatus <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (31)"
+              "severity"     : "OK",
+              "finding"      : "60 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-07-17 19:52"
+              "finding"      : "2024-09-14 21:12"
           }
 ,         {
               "id"           : "cert_notAfter <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-10-15 19:52"
+              "severity"     : "OK",
+              "finding"      : "2024-12-13 21:12"
           }
 ,         {
               "id"           : "cert_extlifeSpan <hostCert#1>",
@@ -1881,14 +1881,14 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://c.pki.goog/wr1/uq86KJw_2tQ.crl"
+              "finding"      : "http://c.pki.goog/wr1/X95Wa0j_Jp0.crl"
           }
 ,         {
               "id"           : "cert_ocspURL <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://o.pki.goog/s/wr1/h_I"
+              "finding"      : "http://o.pki.goog/s/wr1/zuQ"
           }
 ,         {
               "id"           : "OCSP_stapling <hostCert#1>",
@@ -2070,7 +2070,7 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "53FE906AB08B67520EC0ECF4316C51FC"
+              "finding"      : "E665EAB1FF69937D0D7785C101099B89"
           }
 ,         {
               "id"           : "cert_serialNumberLen <hostCert#2>",
@@ -2084,21 +2084,21 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "CE9BE697E8E6938FF64C975A0ED2C40DC16D43F2"
+              "finding"      : "22CFC2634220B61696B873ACDE7C23B7CF91D784"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256 <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0677DF1E95237246A38F7CA0FF2031BFCB78D7AB065CAA278557C22ED3D9E1E7"
+              "finding"      : "2A8E2594647DB10DB7E47921836242A5441F1808AB9A97D0EC65994D80CDB6DA"
           }
 ,         {
               "id"           : "cert <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDwTCCA2egAwIBAgIQU/6QarCLZ1IOwOz0MWxR/DAKBggqhkjOPQQDAjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwHhcNMjQwNzE3MTk1MzA0WhcNMjQxMDE1MTk1MzAzWjAgMR4wHAYDVQQDExVpbWFnZXNkZWZlbnNlLmdvdXYuZnIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQUUN8zqY50FYmBlQoHl82eMa9XYFckp1U3V2n56EknSQhdSJhNFlSAuCiVdN7c1vHDXf3Je//Iv2Fis8Fqve/co4ICZjCCAmIwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLqzGkgMJLfT7xYnT4vdAipDQBVNMB8GA1UdIwQYMBaAFJB3kjVnxP+ozKnme9mAeXvMk/k4MF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93ZTEvVV80MCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93ZTEuY3J0MDkGA1UdEQQyMDCCFWltYWdlc2RlZmVuc2UuZ291di5mcoIXKi5pbWFnZXNkZWZlbnNlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd2UxLzlObXBrV1NvRU1jLmNybDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AO7N0GTV2xrOxVy3nbTNE6Iyh0Z8vOzew1FIWUZxH7WbAAABkMJ4Vm0AAAQDAEcwRQIhAIvt8BupuH8o8Y4QX/QNYo628ulsF7uwIgVo+uNBsU0YAiBJuqENp9MfG3HHHfj55rL7L2pNBD9whykV0C/RnYxlygB1AEiw42vapkc0D+VqAvqdMOscUgHLVt0sgdm7v6s52IRzAAABkMJ4VokAAAQDAEYwRAIgGR2fECGiSDtibUoG0Ql4SJ/zCWQ7mqQXf7cHuBhkO0YCIE0a+QTlIjFiLdr+KvfyJVRojI3jO3nj/iR0ajisFfSAMAoGCCqGSM49BAMCA0gAMEUCIQCWinmylXJBaa/kXSlrFpTEK3jBv+wDXFSiWZELd2KHbgIgCkmOn8+qVKpaS1gw7rwz4zmnD5KMk58hGGusW4oQueg=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDxDCCA2qgAwIBAgIRAOZl6rH/aZN9DXeFwQEJm4kwCgYIKoZIzj0EAwIwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV0UxMB4XDTI0MDkxNDIxMTMyN1oXDTI0MTIxMzIxMTMyNlowIDEeMBwGA1UEAxMVaW1hZ2VzZGVmZW5zZS5nb3V2LmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEnms+LbJ/L7F3YAorOxprApZmuaxxjmPlEPrZHyOZt6bLuxnTNAWof7NLIHNvM1P3VB2Tzf/ycKvRms8n4VDzJqOCAmgwggJkMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRfktsgTgWZ9igES77NS8tIxqY3WTAfBgNVHSMEGDAWgBSQd5I1Z8T/qMyp5nvZgHl7zJP5ODBeBggrBgEFBQcBAQRSMFAwJwYIKwYBBQUHMAGGG2h0dHA6Ly9vLnBraS5nb29nL3Mvd2UxLzVtVTAlBggrBgEFBQcwAoYZaHR0cDovL2kucGtpLmdvb2cvd2UxLmNydDA5BgNVHREEMjAwghVpbWFnZXNkZWZlbnNlLmdvdXYuZnKCFyouaW1hZ2VzZGVmZW5zZS5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jLnBraS5nb29nL3dlMS9fLTRpRndmQ2FjTS5jcmwwggEFBgorBgEEAdZ5AgQCBIH2BIHzAPEAdwDatr9rP7W2Ip+bwrtca+hwkXFsu1GEhTS9pD0wSNf7qwAAAZHymSZfAAAEAwBIMEYCIQDwVdHdFBSjyrvVX1wK0woR407JgRZq/NNgg6kZNynwsgIhAK+viWIhFe30f6c3Re8MqKnssJN7VsHuVvmNwm+fw2XCAHYA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGR8pklSQAABAMARzBFAiEA2GuVgIa3CPRkzSKs0E7TO5uVbFZiPBu95fAB+ged9uUCIGPsS4i+ahRjeNAKoUGwIVVYNH0uP3a99IJG2OOs5qPwMAoGCCqGSM49BAMCA0gAMEUCIEZRcKuPCvDwshS8ZRMSbLwdjm3wsul4AdrIEXTmrs45AiEA6W2W9xFZEBRLVkKfrEbylpzehLYowUCrWlcKDZGbMbE=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName <hostCert#2>",
@@ -2146,22 +2146,22 @@
               "id"           : "cert_expirationStatus <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (31)"
+              "severity"     : "OK",
+              "finding"      : "60 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-07-17 19:53"
+              "finding"      : "2024-09-14 21:13"
           }
 ,         {
               "id"           : "cert_notAfter <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-10-15 19:53"
+              "severity"     : "OK",
+              "finding"      : "2024-12-13 21:13"
           }
 ,         {
               "id"           : "cert_extlifeSpan <hostCert#2>",
@@ -2182,14 +2182,14 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://c.pki.goog/we1/9NmpkWSoEMc.crl"
+              "finding"      : "http://c.pki.goog/we1/_-4iFwfCacM.crl"
           }
 ,         {
               "id"           : "cert_ocspURL <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://o.pki.goog/s/we1/U_4"
+              "finding"      : "http://o.pki.goog/s/we1/5mU"
           }
 ,         {
               "id"           : "OCSP_stapling <hostCert#2>",
@@ -2357,7 +2357,7 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726323505"
+              "finding"      : "1728916136"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -2462,7 +2462,7 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.34.188",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "font-src https://fonts.gstatic.com https://ws.colissimo.fr payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com data: 'self' 'unsafe-inline'; form-action secure.authorize.net test.authorize.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com https://plumrocket.com 'self' 'unsafe-inline'; frame-ancestors 'self'; frame-src fast.amc.demdex.net *.adobe.com secure.authorize.net test.authorize.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com player.vimeo.com *.youtube.com https://www.google.com/recaptcha/ https://plumrocket.com https://www.youtube.com https://form.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com 'self' 'unsafe-inline'; img-src assets.adobedtm.com amcglobal.sc.omtrdc.net dpm.demdex.net cm.everesttech.net *.adobe.com widgets.magentocommerce.com data: *.vimeocdn.com i.ytimg.com https://maps.googleapis.com https://maps.gstatic.com https://ws.colissimo.fr https://*.tile.openstreetmap.fr payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com data: 'self' 'unsafe-inline'; script-src assets.adobedtm.com *.adobe.com secure.authorize.net test.authorize.net geostag.cardinalcommerce.com 1eafstag.cardinalcommerce.com geoapi.cardinalcommerce.com 1eafapi.cardinalcommerce.com songbird.cardinalcommerce.com includestest.ccdc02.com s.ytimg.com www.googleapis.com vimeo.com www.vimeo.com *.vimeocdn.com https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ https://maps.googleapis.com https://www.google.com https://www.gstatic.com https://ws.colissimo.fr https://api.mapbox.com https://*.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com matomo.thewetailers.fr analytics.ecpad.fr 'self' 'unsafe-inline' 'unsafe-eval'; style-src *.adobe.com https://fonts.googleapis.com https://ws.colissimo.fr https://api.mapbox.com https://*.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com 'self' 'unsafe-inline'; object-src 'self' 'unsafe-inline'; media-src *.adobe.com 'self' 'unsafe-inline'; manifest-src 'self' 'unsafe-inline'; connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com https://nominatim.openstreetmap.org payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com maps.googleapis.com 'self' 'unsafe-inline'; child-src http: https: blob: 'self' 'unsafe-inline'; default-src 'self' 'unsafe-inline' 'unsafe-eval'; base-uri 'self' 'unsafe-inline';"
+              "finding"      : "font-src https://fonts.gstatic.com https://ws.colissimo.fr payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com data: 'self' 'unsafe-inline'; form-action secure.authorize.net test.authorize.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com https://plumrocket.com 'self' 'unsafe-inline'; frame-ancestors 'self'; frame-src fast.amc.demdex.net *.adobe.com secure.authorize.net test.authorize.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com player.vimeo.com *.youtube.com https://www.google.com/recaptcha/ https://plumrocket.com https://www.youtube.com https://form.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com 'self' 'unsafe-inline'; img-src assets.adobedtm.com amcglobal.sc.omtrdc.net dpm.demdex.net cm.everesttech.net *.adobe.com widgets.magentocommerce.com data: *.vimeocdn.com i.ytimg.com https://maps.googleapis.com https://maps.gstatic.com https://ws.colissimo.fr https://*.tile.openstreetmap.fr https://*.onyourmap.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com data: 'self' 'unsafe-inline'; script-src assets.adobedtm.com *.adobe.com secure.authorize.net test.authorize.net geostag.cardinalcommerce.com 1eafstag.cardinalcommerce.com geoapi.cardinalcommerce.com 1eafapi.cardinalcommerce.com songbird.cardinalcommerce.com includestest.ccdc02.com s.ytimg.com www.googleapis.com vimeo.com www.vimeo.com *.vimeocdn.com https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ https://maps.googleapis.com https://www.google.com https://www.gstatic.com https://ws.colissimo.fr https://api.mapbox.com https://*.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com matomo.thewetailers.fr analytics.ecpad.fr 'self' 'unsafe-inline' 'unsafe-eval'; style-src *.adobe.com https://fonts.googleapis.com https://ws.colissimo.fr https://api.mapbox.com https://*.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com 'self' 'unsafe-inline'; object-src 'self' 'unsafe-inline'; media-src *.adobe.com 'self' 'unsafe-inline'; manifest-src 'self' 'unsafe-inline'; connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com https://ws.colissimo.fr https://maps.googleapis.com https://nominatim.openstreetmap.org https://*.onyourmap.com https://*.mapbox.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com maps.googleapis.com 'self' 'unsafe-inline'; child-src http: https: blob: 'self' 'unsafe-inline'; default-src 'self' 'unsafe-inline' 'unsafe-eval'; base-uri 'self' 'unsafe-inline';"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -2628,7 +2628,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=FA86DC48D39F38D2A7B30190DE9C51D4FD6892E1079B816BB81EA05F1DE82860"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E3B0D04964D868004D26AC33C2B0020C124A22178A08D1D94E7270B470CDA79D"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -3269,7 +3269,7 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "87F29FCFD4B747550E746AE40BBD7089"
+              "finding"      : "CEE440725B4C96020E14F5CFCFE9A2D8"
           }
 ,         {
               "id"           : "cert_serialNumberLen <hostCert#1>",
@@ -3283,21 +3283,21 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6417906F049C877C61289AEE29BC94041091DA0B"
+              "finding"      : "060D1375EFBF066615774EF9780E60151E61E6FF"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256 <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "FA86DC48D39F38D2A7B30190DE9C51D4FD6892E1079B816BB81EA05F1DE82860"
+              "finding"      : "E3B0D04964D868004D26AC33C2B0020C124A22178A08D1D94E7270B470CDA79D"
           }
 ,         {
               "id"           : "cert <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFTzCCBDegAwIBAgIRAIfyn8/Ut0dVDnRq5Au9cIkwDQYJKoZIhvcNAQELBQAwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV1IxMB4XDTI0MDcxNzE5NTI1NFoXDTI0MTAxNTE5NTI1M1owIDEeMBwGA1UEAxMVaW1hZ2VzZGVmZW5zZS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkdbv7HkOg6VFPBuOkMztfcc9sOvOGeQgfbrpjdYuKvpjEP1oLRX/9eIBYc26zhcPWW5Qyrt1uWJSd67Hjn5JUtyyaetCaAntJK/dU9ebbSjSWhq/UZ78kzbWq6M/TgGUNp2QswFt74Ic+Q/tDL6rLqKytHJKRIOGtr8pGiAMpUWli05pgDbEvcFxVKpOZPAWwY6z44SurGpxBa15OPsSx+FIpRqAmmNux/7oCYzMWO0mxI8LgmafHuGQD5dLES88vp++NduFLwXbogdLYPfgU/u91bfuqNdF4Y/lRDBMP4f30vi7dYSw6fko8zDgwXY2e4dzniOkn1319TOT2jg28wIDAQABo4ICZzCCAmMwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLTa6XkyYDBH1R0qrOT9SX5u6y+7MB8GA1UdIwQYMBaAFGZpSdTeKpyRA8+JDiS4DjADboguMF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93cjEvaF9JMCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93cjEuY3J0MDkGA1UdEQQyMDCCFWltYWdlc2RlZmVuc2UuZ291di5mcoIXKi5pbWFnZXNkZWZlbnNlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd3IxL3VxODZLSndfMnRRLmNybDCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2ANq2v2s/tbYin5vCu1xr6HCRcWy7UYSFNL2kPTBI1/urAAABkMJ4MS0AAAQDAEcwRQIgZuRvL3LYEi0RX12DH2L+qTt8GkJLYfAWCDFtZp7XsaECIQDXaokUlH1MwuWLSxfGxqwqV28Azg00ye5rImDY+20miwB2AHb/iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0AAABkMJ4MTEAAAQDAEcwRQIgI+R2VQFdQv2cSKzOOe1u6DKzYcEoVkNWGieY/ofyVw4CIQDlLD+OH5zRQUc9rDoj4S1/MoXEumdFEUDOD+TyBXTI5zANBgkqhkiG9w0BAQsFAAOCAQEAYjvyUswXmHNfVgJp+aNYJQ+esaPfvqQrCAfCwwKxmkbIonqfObkIZWFi47dYZs7Ua5Oay340MAsZRYkWrIfQvKvh5IEJ8zwNGS42po+JDG3FI8xu7STYJpKsoThObsQg57rbeiupiRz6CR8GCJzdwgdJMfvlGYa1RPGWOyaMc0JXRYxRHIhRB3Ap4tIkpSFpJ0Sx2UJLMKAczIkFyUlmPoLTY/HOzRRz8tp8Bz6YZ16pRdwOE3HL/8XS8LT1Ib/mfpoj4EZEOG/6g4s9L13sqQwPSWkDhmYtpiM39C1k/aJRWBOymPLGIUxND33j3vslkgtSCba81Jzb1XtT7jPfjw==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFUDCCBDigAwIBAgIRAM7kQHJbTJYCDhT1z8/potgwDQYJKoZIhvcNAQELBQAwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV1IxMB4XDTI0MDkxNDIxMTI1OFoXDTI0MTIxMzIxMTI1N1owIDEeMBwGA1UEAxMVaW1hZ2VzZGVmZW5zZS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwNtcctesiL6+AmQeNKgJrjOfS+eKYbmOvItAjCfTdXw0MlaXikCYB7ZMDzZLF1U+UZtZahyFLbFfhWF7YB8k1W2dBd63vA2rjUBgN/bGz5xtAEYulsJujG6Bedhi6jWL5htzd9F9Oenl0cNdRjObgDW6W5mDsEcy+YKU7YlPOGPbruRFOuulvy0ykwVMRFG6Vnw8Pj+XcfAfB0HY6Z5sDFj0efb9YEmVtyQWe3+uGPIxhwZPjHdTY0fw+0L60tl5lw/ARFqYSwXEJTBsoAHkpkChOmuuAbkHvPlDIkyH6nfKUyR16bcbn0OS5yF/aVAljcVyX6NwVdF5uayOfKhaewIDAQABo4ICaDCCAmQwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFDmaZNll1fWaF/LpI8n5KrOkOuxRMB8GA1UdIwQYMBaAFGZpSdTeKpyRA8+JDiS4DjADboguMF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93cjEvenVRMCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93cjEuY3J0MDkGA1UdEQQyMDCCFWltYWdlc2RlZmVuc2UuZ291di5mcoIXKi5pbWFnZXNkZWZlbnNlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd3IxL1g5NVdhMGpfSnAwLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AHb/iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0AAABkfKYr8UAAAQDAEcwRQIhAIgMKUrCWAY3rYcd7Rn1huXdvVImhUic5mB3iTU+bMxVAiBNmgIwXsetBdtF3j/M98xIfrzlMiAeNCtAyR9HtiveDAB3ANq2v2s/tbYin5vCu1xr6HCRcWy7UYSFNL2kPTBI1/urAAABkfKYr8cAAAQDAEgwRgIhAKZr3y8ZevvY30AuOhyt5Bqn/RGqXUbt384E/O/GruQ7AiEAnLKxtdfwgfw1JTwxEZOCDpu7kZ+Ws3zykNNclg+u6fYwDQYJKoZIhvcNAQELBQADggEBAApco3lojzOoU8e76QOytJyP0DWXhSzyMF6vRT5eSJP5N8hEzZbhj6EuJZ/CXI1bp3Ikin3XUSReqBcfw0ASyBhzYATpoqCxBcjtMMhqI6dsSnxCHh4kzwQN59lx1P3070GGwzHR4GpUeiLvpNneBj9xbJXXzTTDPONBYIxwFrRHZZAhMWQvfYDS0u7V3GCJCaeHAcuBOM6rs1kNY28cHXQWMpXaREvkl7u9hrHV/4mBWcyUOxmXPyfdZB9x287KVqP+E/dc17y8m0ogt9m8X21wniy+CX71WI+kwqtShmKIr8PSJwjeiX2yrKtt9JrqD6as4eWlDKMwNwfL0AplDxc=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName <hostCert#1>",
@@ -3345,22 +3345,22 @@
               "id"           : "cert_expirationStatus <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (31)"
+              "severity"     : "OK",
+              "finding"      : "60 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-07-17 19:52"
+              "finding"      : "2024-09-14 21:12"
           }
 ,         {
               "id"           : "cert_notAfter <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-10-15 19:52"
+              "severity"     : "OK",
+              "finding"      : "2024-12-13 21:12"
           }
 ,         {
               "id"           : "cert_extlifeSpan <hostCert#1>",
@@ -3381,14 +3381,14 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://c.pki.goog/wr1/uq86KJw_2tQ.crl"
+              "finding"      : "http://c.pki.goog/wr1/X95Wa0j_Jp0.crl"
           }
 ,         {
               "id"           : "cert_ocspURL <hostCert#1>",
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://o.pki.goog/s/wr1/h_I"
+              "finding"      : "http://o.pki.goog/s/wr1/zuQ"
           }
 ,         {
               "id"           : "OCSP_stapling <hostCert#1>",
@@ -3570,7 +3570,7 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "53FE906AB08B67520EC0ECF4316C51FC"
+              "finding"      : "E665EAB1FF69937D0D7785C101099B89"
           }
 ,         {
               "id"           : "cert_serialNumberLen <hostCert#2>",
@@ -3584,21 +3584,21 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "CE9BE697E8E6938FF64C975A0ED2C40DC16D43F2"
+              "finding"      : "22CFC2634220B61696B873ACDE7C23B7CF91D784"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256 <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0677DF1E95237246A38F7CA0FF2031BFCB78D7AB065CAA278557C22ED3D9E1E7"
+              "finding"      : "2A8E2594647DB10DB7E47921836242A5441F1808AB9A97D0EC65994D80CDB6DA"
           }
 ,         {
               "id"           : "cert <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDwTCCA2egAwIBAgIQU/6QarCLZ1IOwOz0MWxR/DAKBggqhkjOPQQDAjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwHhcNMjQwNzE3MTk1MzA0WhcNMjQxMDE1MTk1MzAzWjAgMR4wHAYDVQQDExVpbWFnZXNkZWZlbnNlLmdvdXYuZnIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQUUN8zqY50FYmBlQoHl82eMa9XYFckp1U3V2n56EknSQhdSJhNFlSAuCiVdN7c1vHDXf3Je//Iv2Fis8Fqve/co4ICZjCCAmIwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLqzGkgMJLfT7xYnT4vdAipDQBVNMB8GA1UdIwQYMBaAFJB3kjVnxP+ozKnme9mAeXvMk/k4MF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93ZTEvVV80MCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93ZTEuY3J0MDkGA1UdEQQyMDCCFWltYWdlc2RlZmVuc2UuZ291di5mcoIXKi5pbWFnZXNkZWZlbnNlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd2UxLzlObXBrV1NvRU1jLmNybDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AO7N0GTV2xrOxVy3nbTNE6Iyh0Z8vOzew1FIWUZxH7WbAAABkMJ4Vm0AAAQDAEcwRQIhAIvt8BupuH8o8Y4QX/QNYo628ulsF7uwIgVo+uNBsU0YAiBJuqENp9MfG3HHHfj55rL7L2pNBD9whykV0C/RnYxlygB1AEiw42vapkc0D+VqAvqdMOscUgHLVt0sgdm7v6s52IRzAAABkMJ4VokAAAQDAEYwRAIgGR2fECGiSDtibUoG0Ql4SJ/zCWQ7mqQXf7cHuBhkO0YCIE0a+QTlIjFiLdr+KvfyJVRojI3jO3nj/iR0ajisFfSAMAoGCCqGSM49BAMCA0gAMEUCIQCWinmylXJBaa/kXSlrFpTEK3jBv+wDXFSiWZELd2KHbgIgCkmOn8+qVKpaS1gw7rwz4zmnD5KMk58hGGusW4oQueg=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDxDCCA2qgAwIBAgIRAOZl6rH/aZN9DXeFwQEJm4kwCgYIKoZIzj0EAwIwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV0UxMB4XDTI0MDkxNDIxMTMyN1oXDTI0MTIxMzIxMTMyNlowIDEeMBwGA1UEAxMVaW1hZ2VzZGVmZW5zZS5nb3V2LmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEnms+LbJ/L7F3YAorOxprApZmuaxxjmPlEPrZHyOZt6bLuxnTNAWof7NLIHNvM1P3VB2Tzf/ycKvRms8n4VDzJqOCAmgwggJkMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRfktsgTgWZ9igES77NS8tIxqY3WTAfBgNVHSMEGDAWgBSQd5I1Z8T/qMyp5nvZgHl7zJP5ODBeBggrBgEFBQcBAQRSMFAwJwYIKwYBBQUHMAGGG2h0dHA6Ly9vLnBraS5nb29nL3Mvd2UxLzVtVTAlBggrBgEFBQcwAoYZaHR0cDovL2kucGtpLmdvb2cvd2UxLmNydDA5BgNVHREEMjAwghVpbWFnZXNkZWZlbnNlLmdvdXYuZnKCFyouaW1hZ2VzZGVmZW5zZS5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jLnBraS5nb29nL3dlMS9fLTRpRndmQ2FjTS5jcmwwggEFBgorBgEEAdZ5AgQCBIH2BIHzAPEAdwDatr9rP7W2Ip+bwrtca+hwkXFsu1GEhTS9pD0wSNf7qwAAAZHymSZfAAAEAwBIMEYCIQDwVdHdFBSjyrvVX1wK0woR407JgRZq/NNgg6kZNynwsgIhAK+viWIhFe30f6c3Re8MqKnssJN7VsHuVvmNwm+fw2XCAHYA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGR8pklSQAABAMARzBFAiEA2GuVgIa3CPRkzSKs0E7TO5uVbFZiPBu95fAB+ged9uUCIGPsS4i+ahRjeNAKoUGwIVVYNH0uP3a99IJG2OOs5qPwMAoGCCqGSM49BAMCA0gAMEUCIEZRcKuPCvDwshS8ZRMSbLwdjm3wsul4AdrIEXTmrs45AiEA6W2W9xFZEBRLVkKfrEbylpzehLYowUCrWlcKDZGbMbE=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName <hostCert#2>",
@@ -3646,22 +3646,22 @@
               "id"           : "cert_expirationStatus <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (31)"
+              "severity"     : "OK",
+              "finding"      : "60 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-07-17 19:53"
+              "finding"      : "2024-09-14 21:13"
           }
 ,         {
               "id"           : "cert_notAfter <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-10-15 19:53"
+              "severity"     : "OK",
+              "finding"      : "2024-12-13 21:13"
           }
 ,         {
               "id"           : "cert_extlifeSpan <hostCert#2>",
@@ -3682,14 +3682,14 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://c.pki.goog/we1/9NmpkWSoEMc.crl"
+              "finding"      : "http://c.pki.goog/we1/_-4iFwfCacM.crl"
           }
 ,         {
               "id"           : "cert_ocspURL <hostCert#2>",
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://o.pki.goog/s/we1/U_4"
+              "finding"      : "http://o.pki.goog/s/we1/5mU"
           }
 ,         {
               "id"           : "OCSP_stapling <hostCert#2>",
@@ -3857,7 +3857,7 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726323564"
+              "finding"      : "1728916194"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -3962,7 +3962,7 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "font-src https://fonts.gstatic.com https://ws.colissimo.fr payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com data: 'self' 'unsafe-inline'; form-action secure.authorize.net test.authorize.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com https://plumrocket.com 'self' 'unsafe-inline'; frame-ancestors 'self'; frame-src fast.amc.demdex.net *.adobe.com secure.authorize.net test.authorize.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com player.vimeo.com *.youtube.com https://www.google.com/recaptcha/ https://plumrocket.com https://www.youtube.com https://form.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com 'self' 'unsafe-inline'; img-src assets.adobedtm.com amcglobal.sc.omtrdc.net dpm.demdex.net cm.everesttech.net *.adobe.com widgets.magentocommerce.com data: *.vimeocdn.com i.ytimg.com https://maps.googleapis.com https://maps.gstatic.com https://ws.colissimo.fr https://*.tile.openstreetmap.fr payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com data: 'self' 'unsafe-inline'; script-src assets.adobedtm.com *.adobe.com secure.authorize.net test.authorize.net geostag.cardinalcommerce.com 1eafstag.cardinalcommerce.com geoapi.cardinalcommerce.com 1eafapi.cardinalcommerce.com songbird.cardinalcommerce.com includestest.ccdc02.com s.ytimg.com www.googleapis.com vimeo.com www.vimeo.com *.vimeocdn.com https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ https://maps.googleapis.com https://www.google.com https://www.gstatic.com https://ws.colissimo.fr https://api.mapbox.com https://*.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com matomo.thewetailers.fr analytics.ecpad.fr 'self' 'unsafe-inline' 'unsafe-eval'; style-src *.adobe.com https://fonts.googleapis.com https://ws.colissimo.fr https://api.mapbox.com https://*.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com 'self' 'unsafe-inline'; object-src 'self' 'unsafe-inline'; media-src *.adobe.com 'self' 'unsafe-inline'; manifest-src 'self' 'unsafe-inline'; connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com https://nominatim.openstreetmap.org payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com maps.googleapis.com 'self' 'unsafe-inline'; child-src http: https: blob: 'self' 'unsafe-inline'; default-src 'self' 'unsafe-inline' 'unsafe-eval'; base-uri 'self' 'unsafe-inline';"
+              "finding"      : "font-src https://fonts.gstatic.com https://ws.colissimo.fr payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com data: 'self' 'unsafe-inline'; form-action secure.authorize.net test.authorize.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com https://plumrocket.com 'self' 'unsafe-inline'; frame-ancestors 'self'; frame-src fast.amc.demdex.net *.adobe.com secure.authorize.net test.authorize.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com player.vimeo.com *.youtube.com https://www.google.com/recaptcha/ https://plumrocket.com https://www.youtube.com https://form.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com 'self' 'unsafe-inline'; img-src assets.adobedtm.com amcglobal.sc.omtrdc.net dpm.demdex.net cm.everesttech.net *.adobe.com widgets.magentocommerce.com data: *.vimeocdn.com i.ytimg.com https://maps.googleapis.com https://maps.gstatic.com https://ws.colissimo.fr https://*.tile.openstreetmap.fr https://*.onyourmap.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com data: 'self' 'unsafe-inline'; script-src assets.adobedtm.com *.adobe.com secure.authorize.net test.authorize.net geostag.cardinalcommerce.com 1eafstag.cardinalcommerce.com geoapi.cardinalcommerce.com 1eafapi.cardinalcommerce.com songbird.cardinalcommerce.com includestest.ccdc02.com s.ytimg.com www.googleapis.com vimeo.com www.vimeo.com *.vimeocdn.com https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ https://maps.googleapis.com https://www.google.com https://www.gstatic.com https://ws.colissimo.fr https://api.mapbox.com https://*.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com matomo.thewetailers.fr analytics.ecpad.fr 'self' 'unsafe-inline' 'unsafe-eval'; style-src *.adobe.com https://fonts.googleapis.com https://ws.colissimo.fr https://api.mapbox.com https://*.typeform.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com 'self' 'unsafe-inline'; object-src 'self' 'unsafe-inline'; media-src *.adobe.com 'self' 'unsafe-inline'; manifest-src 'self' 'unsafe-inline'; connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com https://ws.colissimo.fr https://maps.googleapis.com https://nominatim.openstreetmap.org https://*.onyourmap.com https://*.mapbox.com payment.payline.com payment-2.payline.com homologation-payment.payline.com homologation-payment-2.payline.com payment.cdn.payline.com homologation-payment.cdn.payline.com maps.googleapis.com 'self' 'unsafe-inline'; child-src http: https: blob: 'self' 'unsafe-inline'; default-src 'self' 'unsafe-inline' 'unsafe-eval'; base-uri 'self' 'unsafe-inline';"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -4128,7 +4128,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=FA86DC48D39F38D2A7B30190DE9C51D4FD6892E1079B816BB81EA05F1DE82860"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E3B0D04964D868004D26AC33C2B0020C124A22178A08D1D94E7270B470CDA79D"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -4504,6 +4504,6 @@
               "ip"           : "imagesdefense.gouv.fr/104.22.35.188",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "177"
+              "finding"      : "176"
           }
 ]
