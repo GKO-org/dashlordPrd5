@@ -346,7 +346,7 @@
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "162 >= 60 days"
+              "finding"      : "132 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +549,7 @@
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726320329"
+              "finding"      : "1728912590"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1119,6 +1119,6 @@
               "ip"           : "geoportail.gouv.fr/37.59.31.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "98"
+              "finding"      : "91"
           }
 ]

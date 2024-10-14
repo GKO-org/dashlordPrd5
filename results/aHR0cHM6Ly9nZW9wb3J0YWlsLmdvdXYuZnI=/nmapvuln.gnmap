@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sat Sep 14 13:26:09 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln geoportail.gouv.fr
+# Nmap 7.92 scan initiated Mon Oct 14 13:30:28 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln geoportail.gouv.fr
 Host: 37.59.31.228 (ns3356400.ip-37-59-31.eu)	Status: Up
 Host: 37.59.31.228 (ns3356400.ip-37-59-31.eu)	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: closed (998)
-# Nmap done at Sat Sep 14 13:26:38 2024 -- 1 IP address (1 host up) scanned in 29.08 seconds
+# Nmap done at Mon Oct 14 13:30:54 2024 -- 1 IP address (1 host up) scanned in 26.51 seconds
