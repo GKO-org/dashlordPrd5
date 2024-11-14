@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Oct 14 13:36:10 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.geoportail-urbanisme.gouv.fr
+# Nmap 7.92 scan initiated Thu Nov 14 12:51:56 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.geoportail-urbanisme.gouv.fr
 Host: 145.239.193.231 ()	Status: Up
 Host: 145.239.193.231 ()	Ports: 443/open/tcp//ssl|https///	Ignored State: filtered (999)
-# Nmap done at Mon Oct 14 13:37:00 2024 -- 1 IP address (1 host up) scanned in 50.21 seconds
+# Nmap done at Thu Nov 14 12:52:35 2024 -- 1 IP address (1 host up) scanned in 38.47 seconds

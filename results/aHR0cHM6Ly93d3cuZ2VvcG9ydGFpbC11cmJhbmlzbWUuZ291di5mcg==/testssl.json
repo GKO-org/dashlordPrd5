@@ -227,7 +227,7 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -367,7 +367,7 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "129 >= 60 days"
+              "finding"      : "98 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -570,7 +570,7 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728912877"
+              "finding"      : "1731588664"
           }
 ,         {
               "id"           : "ipv4_in_header",
@@ -578,7 +578,7 @@
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cwe"          : "CWE-212",
-              "finding"      : "set-cookie: SESSIONSTICK=1728912877.179.40.114870|a85697a25ecdd7c9a01b370962aadb9c; Expires=Wed, 16-Oct-24 13:34:36 GMT; Max-Age=172800; Path=/; Secure; HttpOnly (check if it's your IP address or e.g. a cluster IP)"
+              "finding"      : "set-cookie: SESSIONSTICK=1731588665.184.38.144932|a85697a25ecdd7c9a01b370962aadb9c; Expires=Sat, 16-Nov-24 12:51:04 GMT; Max-Age=172800; Path=/; Secure; HttpOnly (check if it's your IP address or e.g. a cluster IP)"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -620,7 +620,7 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "x-powered-by: PHP/8.2.23"
+              "finding"      : "x-powered-by: PHP/8.2.25"
           }
 ,         {
               "id"           : "cookie_count",
@@ -1178,6 +1178,6 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "163"
+              "finding"      : "84"
           }
 ]
