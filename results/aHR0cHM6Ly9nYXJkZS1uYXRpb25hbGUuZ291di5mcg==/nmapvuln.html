@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln garde-nationale.gouv.fr</pre>
-<p class="lead">Mon Oct 14 13:31:40 2024 – Mon Oct 14 13:32:28 2024<br>1 hosts scanned.
+<p class="lead">Thu Nov 14 12:45:49 2024 – Thu Nov 14 12:46:25 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -170,30 +170,13 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
+<h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
+  FourOhFourRequest, GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Mon, 14 Oct 2024 13:32:04 GMT
-    server: Apache
-    x-content-type-options: nosniff
-    x-xss-protection: 1; mode=block
-    x-frame-options: SAMEORIGIN
-    x-permitted-cross-domain-policies: none
-    expect-ct: enforce, max-age=604800
-    content-length: 199
-    content-type: text/html; charset=iso-8859-1
-    connection: close
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;403 Forbidden&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Forbidden&lt;/h1&gt;
-    &lt;p&gt;You don't have permission to access this resource.&lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  GetRequest, HTTPOptions: 
-    HTTP/1.1 403 Forbidden
-    date: Mon, 14 Oct 2024 13:32:03 GMT
+    date: Thu, 14 Nov 2024 12:46:08 GMT
     server: Apache
     x-content-type-options: nosniff
     x-xss-protection: 1; mode=block
@@ -219,8 +202,6 @@
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;408 Request Time-out&lt;/h1&gt;
     Your browser didn't send a complete request in time.
     &lt;/body&gt;&lt;/html&gt;</pre>
-<h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 </td></tr>
 </tbody>
 </table></div>
