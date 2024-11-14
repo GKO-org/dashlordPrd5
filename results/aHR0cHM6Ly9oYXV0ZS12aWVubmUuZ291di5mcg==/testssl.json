@@ -262,7 +262,7 @@
               "ip"           : "haute-vienne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "EBAED14BAD2776C3EA26974FE06380D5"
+              "finding"      : "3787F920E6AE789B1F872D9C8630722D"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "haute-vienne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "D8621D60911376F48E37636DE1EC36DD6EECA0D6"
+              "finding"      : "8CE665E326116C3682C8CB1AFF69818F86BC307F"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "haute-vienne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "AE4DEED56A746FDD0F7BD4F2B30A3D87FBF8FC898BB3DDE9F5D42C29773EC149"
+              "finding"      : "020225D57052079ABB9C0072A3910EAE01A1409E59F3AD09BA7873331EA7B3C3"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "haute-vienne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "haute-vienne.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (23)"
+              "severity"     : "OK",
+              "finding"      : "334 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "haute-vienne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-21 23:00"
+              "finding"      : "2024-10-14 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "haute-vienne.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-11-06 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-10-14 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,7 +500,7 @@
               "ip"           : "haute-vienne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728914499"
+              "finding"      : "1731590911"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=AE4DEED56A746FDD0F7BD4F2B30A3D87FBF8FC898BB3DDE9F5D42C29773EC149"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=020225D57052079ABB9C0072A3910EAE01A1409E59F3AD09BA7873331EA7B3C3"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "haute-vienne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "59"
+              "finding"      : "94"
           }
 ]
