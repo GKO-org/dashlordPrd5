@@ -339,7 +339,7 @@
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "163 >= 60 days"
+              "finding"      : "132 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,42 +493,28 @@
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+114 seconds from localtime"
+              "finding"      : "+146 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728913530"
+              "finding"      : "1731589634"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "114 seconds"
+              "finding"      : "147 seconds"
           }
 ,         {
-              "id"           : "HSTS_time",
+              "id"           : "HSTS",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "max-age too short. 0 days (=1000 seconds) < 15552000 seconds"
-          }
-,         {
-              "id"           : "HSTS_subdomains",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "only for this domain"
-          }
-,         {
-              "id"           : "HSTS_preload",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "domain is NOT marked for preloading"
+              "severity"     : "LOW",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "HPKP",
@@ -606,7 +592,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Varnish: 4162945 4098261X-Cache: HITX-Cache-Hits: 5"
+              "finding"      : "X-Varnish: 10143752 10213023X-Cache: HITX-Cache-Hits: 4"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1105,13 +1091,13 @@
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Grade capped to A. HSTS max-age is too short"
+              "finding"      : "Grade capped to A. HSTS is not offered"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "harkis.gouv.fr/160.92.148.78",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "58"
+              "finding"      : "94"
           }
 ]
