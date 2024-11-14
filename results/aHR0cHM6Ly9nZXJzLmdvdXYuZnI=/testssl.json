@@ -199,7 +199,7 @@
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -262,7 +262,7 @@
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "BF4FB83130B2CEA2C13167AC9D4BFE43"
+              "finding"      : "F29DF10BEE775BBA0CF3189211A309CC"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "65AF352DBF9E27FFB97FAD14F89370027CF04BBA"
+              "finding"      : "5E933E1E80C1E673DF0358B560008F9010786A95"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4613C4760A14B89C87564FBF25FB5BC64FF6D3A288073089853FF11B83BC6817"
+              "finding"      : "26FC0096D6504834A3995E1C55F08D117E8052A6D1AA8401117F702373A528CC"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.gers.gouv.fr gers.gouv.fr"
+              "finding"      : "gers.gouv.fr www.gers.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (16)"
+              "severity"     : "OK",
+              "finding"      : "337 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-22 23:00"
+              "finding"      : "2024-10-17 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-10-30 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-10-17 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,7 +500,7 @@
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728912968"
+              "finding"      : "1731588800"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -557,7 +557,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-cache: Miss"
+              "finding"      : "x-cache: Hit"
           }
 ,         {
               "id"           : "heartbleed",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=4613C4760A14B89C87564FBF25FB5BC64FF6D3A288073089853FF11B83BC6817"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=26FC0096D6504834A3995E1C55F08D117E8052A6D1AA8401117F702373A528CC"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "gers.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "99"
           }
 ]
