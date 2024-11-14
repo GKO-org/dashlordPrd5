@@ -262,7 +262,7 @@
               "ip"           : "herault.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "993AF710D3BB3F2AA24444A4BECE294F"
+              "finding"      : "FCC6BB06D3F27EF1A1299F23A9DAA014"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "herault.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECCB54727D3E039C3296775A80B817CC53013DAB"
+              "finding"      : "D637EBB9657C49D0CF82FA999C12E0D618E4AA01"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "herault.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F23AD9D9D4F0084FA4B02245DE088D3F5142E632AB778954A3199FD630D12A99"
+              "finding"      : "D67B0AA811BB370F8DDE2CD47F6EDADE255FB67BD2867A103BC4A96CD37DD44D"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "herault.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "herault.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (16)"
+              "severity"     : "OK",
+              "finding"      : "334 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "herault.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-22 23:00"
+              "finding"      : "2024-10-14 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "herault.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-10-30 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-10-14 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,7 +500,7 @@
               "ip"           : "herault.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728915060"
+              "finding"      : "1731591153"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F23AD9D9D4F0084FA4B02245DE088D3F5142E632AB778954A3199FD630D12A99"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=D67B0AA811BB370F8DDE2CD47F6EDADE255FB67BD2867A103BC4A96CD37DD44D"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "herault.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "103"
+              "finding"      : "57"
           }
 ]
