@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln guyane.gouv.fr</pre>
-<p class="lead">Mon Oct 14 13:43:43 2024 – Mon Oct 14 13:44:20 2024<br>1 hosts scanned.
+<p class="lead">Thu Nov 14 13:02:36 2024 – Thu Nov 14 13:03:14 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -124,16 +124,9 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  DNSVersionBindReqTCP, X11Probe: 
-    HTTP/1.0 400 Bad request
-    cache-control: no-cache
-    content-type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
-    Your browser sent an invalid request.
-    &lt;/body&gt;&lt;/html&gt;
   FourOhFourRequest, GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Mon, 14 Oct 2024 13:43:57 GMT
+    date: Thu, 14 Nov 2024 13:02:51 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -143,13 +136,16 @@
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
-  RPCCheck: 
+  RPCCheck, X11Probe: 
     HTTP/1.0 400 Bad request
     cache-control: no-cache
     content-type: text/html
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
+    &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Mon, 14 Oct 2024 13:43:57 GMT
+    date: Thu, 14 Nov 2024 13:02:51 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
@@ -179,7 +175,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Mon, 14 Oct 2024 13:44:04 GMT
+    date: Thu, 14 Nov 2024 13:02:58 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -191,7 +187,7 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Mon, 14 Oct 2024 13:44:03 GMT
+    date: Thu, 14 Nov 2024 13:02:57 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -210,7 +206,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Mon, 14 Oct 2024 13:44:10 GMT
+    date: Thu, 14 Nov 2024 13:03:04 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
