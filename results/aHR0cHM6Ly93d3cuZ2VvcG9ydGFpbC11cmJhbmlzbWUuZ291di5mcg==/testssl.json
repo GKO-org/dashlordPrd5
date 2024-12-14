@@ -227,7 +227,7 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -367,7 +367,7 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "98 >= 60 days"
+              "finding"      : "68 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -570,15 +570,7 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731588664"
-          }
-,         {
-              "id"           : "ipv4_in_header",
-              "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "cwe"          : "CWE-212",
-              "finding"      : "set-cookie: SESSIONSTICK=1731588665.184.38.144932|a85697a25ecdd7c9a01b370962aadb9c; Expires=Sat, 16-Nov-24 12:51:04 GMT; Max-Age=172800; Path=/; Secure; HttpOnly (check if it's your IP address or e.g. a cluster IP)"
+              "finding"      : "1734184246"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1178,6 +1170,6 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "84"
+              "finding"      : "164"
           }
 ]
