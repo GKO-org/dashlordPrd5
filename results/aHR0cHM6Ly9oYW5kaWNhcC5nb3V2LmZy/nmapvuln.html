@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln handicap.gouv.fr</pre>
-<p class="lead">Thu Nov 14 13:04:42 2024 – Thu Nov 14 13:07:21 2024<br>1 hosts scanned.
+<p class="lead">Sat Dec 14 14:00:44 2024 – Sat Dec 14 14:03:21 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -150,10 +150,13 @@
     Connection: close
     Content-Type: text/html
     Content-Length: 245
-    &lt;html&gt;&lt;head&gt;&lt;title&gt;Request Rejected&lt;/title&gt;&lt;/head&gt;&lt;body&gt;The requested URL was rejected. Please consult with your administrator.&lt;br&gt;&lt;br&gt;Your support ID is: &lt;10600432828812396353&gt;&lt;br&gt;&lt;br&gt;&lt;a href='javascript:history.back();'&gt;[Go Back]&lt;/body&gt;&lt;/html&gt;
-  HTTPOptions: 
+    X-Frame-Options: SAMEORIGIN
+    X-XSS-Protection: 1; mode=block
+    X-Content-Type-Options: nosniff
+    &lt;html&gt;&lt;head&gt;&lt;title&gt;Request Rejected&lt;/title&gt;&lt;/head&gt;&lt;body&gt;The requested URL was rejected. Please consult with your administrator.&lt;br&gt;&lt;br&gt;Your support ID is: &lt;10853012110682405176&gt;&lt;br&gt;&lt;br&gt;&lt;a href='javascript:history.back();'&gt;[Go Back]&lt;/body&gt;&lt;/html&gt;
+  GetRequest, HTTPOptions: 
     HTTP/1.1 400 Bad Request
-    Date: Thu, 14 Nov 2024 13:05:06 GMT
+    Date: Sat, 14 Dec 2024 14:01:04 GMT
     Content-Length: 226
     Content-Type: text/html; charset=iso-8859-1
     Age: 0
@@ -168,11 +171,7 @@
     &lt;h1&gt;Bad Request&lt;/h1&gt;
     &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
     &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  RTSPRequest, SIPOptions: 
-    HTTP/1.1 400 Bad Request
-    Connection: close
-    Set-Cookie: BIGipServerpool-handicap-v2.cegedim.cloud-HTTP=3485751562.20480.0000; path=/; Httponly; Secure</pre>
+    &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 </tbody>
 </table></div>
