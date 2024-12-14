@@ -339,7 +339,7 @@
               "ip"           : "haut-conseil-egalite.gouv.fr/185.194.83.18",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "177 >= 60 days"
+              "finding"      : "147 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "haut-conseil-egalite.gouv.fr/185.194.83.18",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731589620"
+              "finding"      : "1734185175"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1077,6 +1077,6 @@
               "ip"           : "haut-conseil-egalite.gouv.fr/185.194.83.18",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "90"
           }
 ]
