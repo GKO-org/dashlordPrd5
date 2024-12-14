@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln garde-nationale.gouv.fr</pre>
-<p class="lead">Thu Nov 14 12:45:49 2024 – Thu Nov 14 12:46:25 2024<br>1 hosts scanned.
+<p class="lead">Sat Dec 14 13:44:19 2024 – Sat Dec 14 13:44:57 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,7 +76,7 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>185.209.55.179</td>
+<td>185.209.55.188</td>
 <td>garde-nationale.gouv.fr</td>
 <td>2</td>
 <td>0</td>
@@ -91,13 +91,10 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#185-209-55-179"><h3 class="panel-title">185.209.55.179 - garde-nationale.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="185-209-55-179">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#185-209-55-188"><h3 class="panel-title">185.209.55.188 - garde-nationale.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="185-209-55-188">
 <h4>Hostnames</h4>
-<ul>
-<li>garde-nationale.gouv.fr (user)</li>
-<li>vm3194.jn-hebergement.com (PTR)</li>
-</ul>
+<ul><li>garde-nationale.gouv.fr (user)</li></ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
 <thead><tr>
@@ -122,25 +119,22 @@
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  DNSStatusRequestTCP, DNSVersionBindReqTCP, RPCCheck, RTSPRequest, X11Probe: 
-    HTTP/1.1 400 Bad request
-    Content-length: 90
-    Cache-Control: no-cache
-    Connection: close
-    Content-Type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
-    Your browser sent an invalid request.
-    &lt;/body&gt;&lt;/html&gt;
-  FourOhFourRequest: 
-    HTTP/1.1 301 Moved Permanently
-    content-length: 0
-    location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
-    connection: close
   GetRequest, HTTPOptions: 
-    HTTP/1.1 301 Moved Permanently
-    content-length: 0
-    location: https:///
-    connection: close
+    HTTP/1.0 503 Service Unavailable
+    cache-control: no-cache
+    content-type: text/html
+    &lt;!doctype html&gt;
+    &lt;html lang="fr" data-fr-scheme="system"&gt;
+    &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+    &lt;link rel="stylesheet" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/dsfr/dsfr.css"&gt;
+    &lt;meta name="theme-color" content="#000091"&gt;
+    &lt;link rel="apple-touch-icon" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/apple-touch-icon.png"&gt;
+    &lt;link rel="icon" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/favicon.svg" type="image/svg+xml"&gt;
+    &lt;link rel="shortcut icon" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/favicon.ico" type="image/x-icon"&gt;
+    &lt;link rel="manifest" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/manifest.webmanifest" crossorigin="use-credentials"&gt;
+    &lt;tit
   NULL: 
     HTTP/1.1 408 Request Time-out
     Content-length: 110
@@ -151,48 +145,34 @@
     Your browser didn't send a complete request in time.
     &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
-<tr class="active">
-<td>113</td>
-<td>tcp</td>
-<td>closed<br>reset</td>
-<td>ident</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">https</td>
-<td title="Product">Apache</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
-<h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest, GetRequest, HTTPOptions: 
-    HTTP/1.1 403 Forbidden
-    date: Thu, 14 Nov 2024 12:46:08 GMT
-    server: Apache
-    x-content-type-options: nosniff
-    x-xss-protection: 1; mode=block
-    x-frame-options: SAMEORIGIN
-    x-permitted-cross-domain-policies: none
-    expect-ct: enforce, max-age=604800
-    content-length: 199
-    content-type: text/html; charset=iso-8859-1
-    connection: close
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;403 Forbidden&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Forbidden&lt;/h1&gt;
-    &lt;p&gt;You don't have permission to access this resource.&lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
+  GetRequest, HTTPOptions: 
+    HTTP/1.0 503 Service Unavailable
+    cache-control: no-cache
+    content-type: text/html
+    &lt;!doctype html&gt;
+    &lt;html lang="fr" data-fr-scheme="system"&gt;
+    &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+    &lt;link rel="stylesheet" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/dsfr/dsfr.css"&gt;
+    &lt;meta name="theme-color" content="#000091"&gt;
+    &lt;link rel="apple-touch-icon" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/apple-touch-icon.png"&gt;
+    &lt;link rel="icon" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/favicon.svg" type="image/svg+xml"&gt;
+    &lt;link rel="shortcut icon" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/favicon.ico" type="image/x-icon"&gt;
+    &lt;link rel="manifest" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/manifest.webmanifest" crossorigin="use-credentials"&gt;
+    &lt;tit
   NULL: 
     HTTP/1.1 408 Request Time-out
     Content-length: 110
@@ -221,7 +201,7 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>185.209.55.179 - garde-nationale.gouv.fr</td>
+<td>185.209.55.188 - garde-nationale.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
@@ -231,11 +211,11 @@
 <td></td>
 </tr>
 <tr>
-<td>185.209.55.179 - garde-nationale.gouv.fr</td>
+<td>185.209.55.188 - garde-nationale.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
-<td>Apache</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>

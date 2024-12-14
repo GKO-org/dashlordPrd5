@@ -1,30 +1,26 @@
-# Nmap 7.92 scan initiated Thu Nov 14 12:45:49 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln garde-nationale.gouv.fr
-Nmap scan report for garde-nationale.gouv.fr (185.209.55.179)
-Host is up (0.089s latency).
-rDNS record for 185.209.55.179: vm3194.jn-hebergement.com
-Not shown: 997 filtered tcp ports (no-response)
-PORT    STATE  SERVICE   VERSION
-80/tcp  open   http
+# Nmap 7.92 scan initiated Sat Dec 14 13:44:19 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln garde-nationale.gouv.fr
+Nmap scan report for garde-nationale.gouv.fr (185.209.55.188)
+Host is up (0.092s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http
 | fingerprint-strings: 
-|   DNSStatusRequestTCP, DNSVersionBindReqTCP, RPCCheck, RTSPRequest, X11Probe: 
-|     HTTP/1.1 400 Bad request
-|     Content-length: 90
-|     Cache-Control: no-cache
-|     Connection: close
-|     Content-Type: text/html
-|     <html><body><h1>400 Bad request</h1>
-|     Your browser sent an invalid request.
-|     </body></html>
-|   FourOhFourRequest: 
-|     HTTP/1.1 301 Moved Permanently
-|     content-length: 0
-|     location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
-|     connection: close
 |   GetRequest, HTTPOptions: 
-|     HTTP/1.1 301 Moved Permanently
-|     content-length: 0
-|     location: https:///
-|     connection: close
+|     HTTP/1.0 503 Service Unavailable
+|     cache-control: no-cache
+|     content-type: text/html
+|     <!doctype html>
+|     <html lang="fr" data-fr-scheme="system">
+|     <head>
+|     <meta charset="utf-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+|     <link rel="stylesheet" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/dsfr/dsfr.css">
+|     <meta name="theme-color" content="#000091">
+|     <link rel="apple-touch-icon" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/apple-touch-icon.png">
+|     <link rel="icon" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/favicon.svg" type="image/svg+xml">
+|     <link rel="shortcut icon" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/favicon.ico" type="image/x-icon">
+|     <link rel="manifest" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/manifest.webmanifest" crossorigin="use-credentials">
+|     <tit
 |   NULL: 
 |     HTTP/1.1 408 Request Time-out
 |     Content-length: 110
@@ -34,29 +30,24 @@ PORT    STATE  SERVICE   VERSION
 |     <html><body><h1>408 Request Time-out</h1>
 |     Your browser didn't send a complete request in time.
 |_    </body></html>
-113/tcp closed ident
-443/tcp open   ssl/https Apache
-|_http-server-header: Apache
+443/tcp open  ssl/https
 | fingerprint-strings: 
-|   FourOhFourRequest, GetRequest, HTTPOptions: 
-|     HTTP/1.1 403 Forbidden
-|     date: Thu, 14 Nov 2024 12:46:08 GMT
-|     server: Apache
-|     x-content-type-options: nosniff
-|     x-xss-protection: 1; mode=block
-|     x-frame-options: SAMEORIGIN
-|     x-permitted-cross-domain-policies: none
-|     expect-ct: enforce, max-age=604800
-|     content-length: 199
-|     content-type: text/html; charset=iso-8859-1
-|     connection: close
-|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-|     <html><head>
-|     <title>403 Forbidden</title>
-|     </head><body>
-|     <h1>Forbidden</h1>
-|     <p>You don't have permission to access this resource.</p>
-|     </body></html>
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.0 503 Service Unavailable
+|     cache-control: no-cache
+|     content-type: text/html
+|     <!doctype html>
+|     <html lang="fr" data-fr-scheme="system">
+|     <head>
+|     <meta charset="utf-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+|     <link rel="stylesheet" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/dsfr/dsfr.css">
+|     <meta name="theme-color" content="#000091">
+|     <link rel="apple-touch-icon" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/apple-touch-icon.png">
+|     <link rel="icon" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/favicon.svg" type="image/svg+xml">
+|     <link rel="shortcut icon" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/favicon.ico" type="image/x-icon">
+|     <link rel="manifest" href="https://unpkg.com/@gouvfr/dsfr@1.4.1/dist/favicon/manifest.webmanifest" crossorigin="use-credentials">
+|     <tit
 |   NULL: 
 |     HTTP/1.1 408 Request Time-out
 |     Content-length: 110
@@ -68,75 +59,87 @@ PORT    STATE  SERVICE   VERSION
 |_    </body></html>
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=11/14%Time=6735F109%P=x86_64-alpine-linux-musl%
+SF-Port80-TCP:V=7.92%I=7%D=12/14%Time=675D8BC1%P=x86_64-alpine-linux-musl%
 SF:r(NULL,E9,"HTTP/1\.1\x20408\x20Request\x20Time-out\r\nContent-length:\x
 SF:20110\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-
 SF:Type:\x20text/html\r\n\r\n<html><body><h1>408\x20Request\x20Time-out</h
 SF:1>\nYour\x20browser\x20didn't\x20send\x20a\x20complete\x20request\x20in
-SF:\x20time\.\n</body></html>\n")%r(GetRequest,5D,"HTTP/1\.1\x20301\x20Mov
-SF:ed\x20Permanently\r\ncontent-length:\x200\r\nlocation:\x20https:///\r\n
-SF:connection:\x20close\r\n\r\n")%r(HTTPOptions,5D,"HTTP/1\.1\x20301\x20Mo
-SF:ved\x20Permanently\r\ncontent-length:\x200\r\nlocation:\x20https:///\r\
-SF:nconnection:\x20close\r\n\r\n")%r(RTSPRequest,CF,"HTTP/1\.1\x20400\x20B
-SF:ad\x20request\r\nContent-length:\x2090\r\nCache-Control:\x20no-cache\r\
-SF:nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<html><body>
-SF:<h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invali
-SF:d\x20request\.\n</body></html>\n")%r(X11Probe,CF,"HTTP/1\.1\x20400\x20B
-SF:ad\x20request\r\nContent-length:\x2090\r\nCache-Control:\x20no-cache\r\
-SF:nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<html><body>
-SF:<h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invali
-SF:d\x20request\.\n</body></html>\n")%r(FourOhFourRequest,80,"HTTP/1\.1\x2
-SF:0301\x20Moved\x20Permanently\r\ncontent-length:\x200\r\nlocation:\x20ht
-SF:tps:///nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nconnection:\x20close\r\n
-SF:\r\n")%r(RPCCheck,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-len
-SF:gth:\x2090\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nCon
-SF:tent-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h
-SF:1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></htm
-SF:l>\n")%r(DNSVersionBindReqTCP,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\
-SF:nContent-length:\x2090\r\nCache-Control:\x20no-cache\r\nConnection:\x20
-SF:close\r\nContent-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x
-SF:20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n
-SF:</body></html>\n")%r(DNSStatusRequestTCP,CF,"HTTP/1\.1\x20400\x20Bad\x2
-SF:0request\r\nContent-length:\x2090\r\nCache-Control:\x20no-cache\r\nConn
-SF:ection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<html><body><h1>4
-SF:00\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20
-SF:request\.\n</body></html>\n");
+SF:\x20time\.\n</body></html>\n")%r(GetRequest,CFA,"HTTP/1\.0\x20503\x20Se
+SF:rvice\x20Unavailable\r\ncache-control:\x20no-cache\r\ncontent-type:\x20
+SF:text/html\r\n\r\n<!doctype\x20html>\n<html\x20lang=\"fr\"\x20data-fr-sc
+SF:heme=\"system\">\n\x20\x20<head>\n\x20\x20\x20\x20<meta\x20charset=\"ut
+SF:f-8\">\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=d
+SF:evice-width,\x20initial-scale=1,\x20shrink-to-fit=no\">\n\x20\x20\x20\x
+SF:20<link\x20rel=\"stylesheet\"\x20href=\"https://unpkg\.com/@gouvfr/dsfr
+SF:@1\.4\.1/dist/dsfr/dsfr\.css\">\n\x20\x20\n\x20\x20\x20\x20<meta\x20nam
+SF:e=\"theme-color\"\x20content=\"#000091\">\n\x20\x20\x20\x20<link\x20rel
+SF:=\"apple-touch-icon\"\x20href=\"https://unpkg\.com/@gouvfr/dsfr@1\.4\.1
+SF:/dist/favicon/apple-touch-icon\.png\">\n\x20\x20\x20\x20<link\x20rel=\"
+SF:icon\"\x20href=\"https://unpkg\.com/@gouvfr/dsfr@1\.4\.1/dist/favicon/f
+SF:avicon\.svg\"\x20type=\"image/svg\+xml\">\n\x20\x20\x20\x20<link\x20rel
+SF:=\"shortcut\x20icon\"\x20href=\"https://unpkg\.com/@gouvfr/dsfr@1\.4\.1
+SF:/dist/favicon/favicon\.ico\"\x20type=\"image/x-icon\">\n\x20\x20\x20\x2
+SF:0<link\x20rel=\"manifest\"\x20href=\"https://unpkg\.com/@gouvfr/dsfr@1\
+SF:.4\.1/dist/favicon/manifest\.webmanifest\"\x20crossorigin=\"use-credent
+SF:ials\">\n\n\n\x20\x20\x20\x20<tit")%r(HTTPOptions,CFA,"HTTP/1\.0\x20503
+SF:\x20Service\x20Unavailable\r\ncache-control:\x20no-cache\r\ncontent-typ
+SF:e:\x20text/html\r\n\r\n<!doctype\x20html>\n<html\x20lang=\"fr\"\x20data
+SF:-fr-scheme=\"system\">\n\x20\x20<head>\n\x20\x20\x20\x20<meta\x20charse
+SF:t=\"utf-8\">\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"w
+SF:idth=device-width,\x20initial-scale=1,\x20shrink-to-fit=no\">\n\x20\x20
+SF:\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"https://unpkg\.com/@gouvf
+SF:r/dsfr@1\.4\.1/dist/dsfr/dsfr\.css\">\n\x20\x20\n\x20\x20\x20\x20<meta\
+SF:x20name=\"theme-color\"\x20content=\"#000091\">\n\x20\x20\x20\x20<link\
+SF:x20rel=\"apple-touch-icon\"\x20href=\"https://unpkg\.com/@gouvfr/dsfr@1
+SF:\.4\.1/dist/favicon/apple-touch-icon\.png\">\n\x20\x20\x20\x20<link\x20
+SF:rel=\"icon\"\x20href=\"https://unpkg\.com/@gouvfr/dsfr@1\.4\.1/dist/fav
+SF:icon/favicon\.svg\"\x20type=\"image/svg\+xml\">\n\x20\x20\x20\x20<link\
+SF:x20rel=\"shortcut\x20icon\"\x20href=\"https://unpkg\.com/@gouvfr/dsfr@1
+SF:\.4\.1/dist/favicon/favicon\.ico\"\x20type=\"image/x-icon\">\n\x20\x20\
+SF:x20\x20<link\x20rel=\"manifest\"\x20href=\"https://unpkg\.com/@gouvfr/d
+SF:sfr@1\.4\.1/dist/favicon/manifest\.webmanifest\"\x20crossorigin=\"use-c
+SF:redentials\">\n\n\n\x20\x20\x20\x20<tit");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=6735F10F%P=x86_64-alpine-linu
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=12/14%Time=675D8BC8%P=x86_64-alpine-linu
 SF:x-musl%r(NULL,E9,"HTTP/1\.1\x20408\x20Request\x20Time-out\r\nContent-le
 SF:ngth:\x20110\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nC
 SF:ontent-Type:\x20text/html\r\n\r\n<html><body><h1>408\x20Request\x20Time
 SF:-out</h1>\nYour\x20browser\x20didn't\x20send\x20a\x20complete\x20reques
-SF:t\x20in\x20time\.\n</body></html>\n")%r(GetRequest,217,"HTTP/1\.1\x2040
-SF:3\x20Forbidden\r\ndate:\x20Thu,\x2014\x20Nov\x202024\x2012:46:08\x20GMT
-SF:\r\nserver:\x20Apache\r\nx-content-type-options:\x20nosniff\r\nx-xss-pr
-SF:otection:\x201;\x20mode=block\r\nx-frame-options:\x20SAMEORIGIN\r\nx-pe
-SF:rmitted-cross-domain-policies:\x20none\r\nexpect-ct:\x20enforce,\x20max
-SF:-age=604800\r\ncontent-length:\x20199\r\ncontent-type:\x20text/html;\x2
-SF:0charset=iso-8859-1\r\nconnection:\x20close\r\n\r\n<!DOCTYPE\x20HTML\x2
-SF:0PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>
-SF:403\x20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You\x20
-SF:don't\x20have\x20permission\x20to\x20access\x20this\x20resource\.</p>\n
-SF:</body></html>\n")%r(HTTPOptions,217,"HTTP/1\.1\x20403\x20Forbidden\r\n
-SF:date:\x20Thu,\x2014\x20Nov\x202024\x2012:46:08\x20GMT\r\nserver:\x20Apa
-SF:che\r\nx-content-type-options:\x20nosniff\r\nx-xss-protection:\x201;\x2
-SF:0mode=block\r\nx-frame-options:\x20SAMEORIGIN\r\nx-permitted-cross-doma
-SF:in-policies:\x20none\r\nexpect-ct:\x20enforce,\x20max-age=604800\r\ncon
-SF:tent-length:\x20199\r\ncontent-type:\x20text/html;\x20charset=iso-8859-
-SF:1\r\nconnection:\x20close\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IE
-SF:TF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>403\x20Forbidden</
-SF:title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You\x20don't\x20have\x20p
-SF:ermission\x20to\x20access\x20this\x20resource\.</p>\n</body></html>\n")
-SF:%r(FourOhFourRequest,217,"HTTP/1\.1\x20403\x20Forbidden\r\ndate:\x20Thu
-SF:,\x2014\x20Nov\x202024\x2012:46:08\x20GMT\r\nserver:\x20Apache\r\nx-con
-SF:tent-type-options:\x20nosniff\r\nx-xss-protection:\x201;\x20mode=block\
-SF:r\nx-frame-options:\x20SAMEORIGIN\r\nx-permitted-cross-domain-policies:
-SF:\x20none\r\nexpect-ct:\x20enforce,\x20max-age=604800\r\ncontent-length:
-SF:\x20199\r\ncontent-type:\x20text/html;\x20charset=iso-8859-1\r\nconnect
-SF:ion:\x20close\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20H
-SF:TML\x202\.0//EN\">\n<html><head>\n<title>403\x20Forbidden</title>\n</he
-SF:ad><body>\n<h1>Forbidden</h1>\n<p>You\x20don't\x20have\x20permission\x2
-SF:0to\x20access\x20this\x20resource\.</p>\n</body></html>\n");
+SF:t\x20in\x20time\.\n</body></html>\n")%r(GetRequest,CFA,"HTTP/1\.0\x2050
+SF:3\x20Service\x20Unavailable\r\ncache-control:\x20no-cache\r\ncontent-ty
+SF:pe:\x20text/html\r\n\r\n<!doctype\x20html>\n<html\x20lang=\"fr\"\x20dat
+SF:a-fr-scheme=\"system\">\n\x20\x20<head>\n\x20\x20\x20\x20<meta\x20chars
+SF:et=\"utf-8\">\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"
+SF:width=device-width,\x20initial-scale=1,\x20shrink-to-fit=no\">\n\x20\x2
+SF:0\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"https://unpkg\.com/@gouv
+SF:fr/dsfr@1\.4\.1/dist/dsfr/dsfr\.css\">\n\x20\x20\n\x20\x20\x20\x20<meta
+SF:\x20name=\"theme-color\"\x20content=\"#000091\">\n\x20\x20\x20\x20<link
+SF:\x20rel=\"apple-touch-icon\"\x20href=\"https://unpkg\.com/@gouvfr/dsfr@
+SF:1\.4\.1/dist/favicon/apple-touch-icon\.png\">\n\x20\x20\x20\x20<link\x2
+SF:0rel=\"icon\"\x20href=\"https://unpkg\.com/@gouvfr/dsfr@1\.4\.1/dist/fa
+SF:vicon/favicon\.svg\"\x20type=\"image/svg\+xml\">\n\x20\x20\x20\x20<link
+SF:\x20rel=\"shortcut\x20icon\"\x20href=\"https://unpkg\.com/@gouvfr/dsfr@
+SF:1\.4\.1/dist/favicon/favicon\.ico\"\x20type=\"image/x-icon\">\n\x20\x20
+SF:\x20\x20<link\x20rel=\"manifest\"\x20href=\"https://unpkg\.com/@gouvfr/
+SF:dsfr@1\.4\.1/dist/favicon/manifest\.webmanifest\"\x20crossorigin=\"use-
+SF:credentials\">\n\n\n\x20\x20\x20\x20<tit")%r(HTTPOptions,CFA,"HTTP/1\.0
+SF:\x20503\x20Service\x20Unavailable\r\ncache-control:\x20no-cache\r\ncont
+SF:ent-type:\x20text/html\r\n\r\n<!doctype\x20html>\n<html\x20lang=\"fr\"\
+SF:x20data-fr-scheme=\"system\">\n\x20\x20<head>\n\x20\x20\x20\x20<meta\x2
+SF:0charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20cont
+SF:ent=\"width=device-width,\x20initial-scale=1,\x20shrink-to-fit=no\">\n\
+SF:x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"https://unpkg\.com
+SF:/@gouvfr/dsfr@1\.4\.1/dist/dsfr/dsfr\.css\">\n\x20\x20\n\x20\x20\x20\x2
+SF:0<meta\x20name=\"theme-color\"\x20content=\"#000091\">\n\x20\x20\x20\x2
+SF:0<link\x20rel=\"apple-touch-icon\"\x20href=\"https://unpkg\.com/@gouvfr
+SF:/dsfr@1\.4\.1/dist/favicon/apple-touch-icon\.png\">\n\x20\x20\x20\x20<l
+SF:ink\x20rel=\"icon\"\x20href=\"https://unpkg\.com/@gouvfr/dsfr@1\.4\.1/d
+SF:ist/favicon/favicon\.svg\"\x20type=\"image/svg\+xml\">\n\x20\x20\x20\x2
+SF:0<link\x20rel=\"shortcut\x20icon\"\x20href=\"https://unpkg\.com/@gouvfr
+SF:/dsfr@1\.4\.1/dist/favicon/favicon\.ico\"\x20type=\"image/x-icon\">\n\x
+SF:20\x20\x20\x20<link\x20rel=\"manifest\"\x20href=\"https://unpkg\.com/@g
+SF:ouvfr/dsfr@1\.4\.1/dist/favicon/manifest\.webmanifest\"\x20crossorigin=
+SF:\"use-credentials\">\n\n\n\x20\x20\x20\x20<tit");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu Nov 14 12:46:25 2024 -- 1 IP address (1 host up) scanned in 35.95 seconds
+# Nmap done at Sat Dec 14 13:44:57 2024 -- 1 IP address (1 host up) scanned in 38.48 seconds
