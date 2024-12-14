@@ -339,7 +339,7 @@
               "ip"           : "www.haute-garonne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "334 >= 60 days"
+              "finding"      : "304 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "www.haute-garonne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731589996"
+              "finding"      : "1734185462"
           }
 ,         {
               "id"           : "HSTS",
@@ -521,7 +521,7 @@
               "ip"           : "www.haute-garonne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Apache"
+              "finding"      : "No Server banner line in header, interesting!"
           }
 ,         {
               "id"           : "banner_application",
@@ -1056,6 +1056,6 @@
               "ip"           : "www.haute-garonne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "60"
+              "finding"      : "102"
           }
 ]
