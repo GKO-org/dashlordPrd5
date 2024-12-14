@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln georisques.gouv.fr</pre>
-<p class="lead">Thu Nov 14 12:52:49 2024 – Thu Nov 14 12:55:19 2024<br>1 hosts scanned.
+<p class="lead">Sat Dec 14 13:51:06 2024 – Sat Dec 14 13:53:42 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -139,41 +139,22 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-trane-info</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Problem with XML parsing of /evox/about</pre>
+<h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
-    HTTP/1.1 500 Internal Server Error
-    Cache-Control: no-cache
-    Connection: close
-    Content-Type: text/html; charset=utf-8
+    HTTP/1.1 200 OK
+    Cache-Control: no-store, must-revalidate, no-cache
     Pragma: no-cache
-    Content-Length: 48735
-    &lt;html lang="fr" data-fr-scheme="system" class=" js js" data-fr-js="true" data-once="iframeCookies" data-fr-theme="light"&gt;
-    &lt;head&gt;
-    &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
-    &lt;link rel="icon" href="https://georisques.gouv.fr/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon"&gt;
-    &lt;title&gt;Page indisponible | G
-    orisques - Minist
-    transition 
-    cologique&lt;/title&gt;
-    &lt;meta name="theme-color" content="#000091"&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;style&gt;
-    @charset "UTF-8";
-    :root {
-    --bs-blue: #2a6199;
-    --bs-indigo: #6610f2;
-    --bs-purple: #6f42c1;
-    --bs-pink: #e95182;
-    --bs-red: #dc3545;
-    --bs-orange: #fd7e14;
-    --bs-yellow: #ffc107;
-    --bs-green: #198754;
-    --bs-teal: #
+    Connection: close
+    Content-Type: text/html
+    Content-Length: 245
+    Vary: Accept-Encoding
+    &lt;html&gt;&lt;head&gt;&lt;title&gt;Request Rejected&lt;/title&gt;&lt;/head&gt;&lt;body&gt;The requested URL was rejected. Please consult with your administrator.&lt;br&gt;&lt;br&gt;Your support ID is: &lt; 5762709337445974473&gt;&lt;br&gt;&lt;br&gt;&lt;a href='javascript:history.back();'&gt;[Go Back]&lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 200 OK
-    Date: Thu, 14 Nov 2024 11:17:42 GMT
+    Date: Sat, 14 Dec 2024 02:19:40 GMT
     Cache-Control: max-age=43200, public
     X-Drupal-Dynamic-Cache: UNCACHEABLE
     Content-language: fr
@@ -182,14 +163,14 @@
     Expires: Sun, 19 Nov 1978 05:00:00 GMT
     Vary: Cookie,Accept-Encoding,Origin
     X-Drupal-Cache: HIT
-    Last-Modified: Thu, 14 Nov 2024 11:17:42 GMT
-    ETag: "1731583062"
-    Content-Length: 56332
+    Last-Modified: Sat, 14 Dec 2024 02:19:39 GMT
+    ETag: "1734142779"
+    Content-Length: 56161
     Content-Security-Policy: frame-ancestors 'self' 'virteem.com';
     Connection: close
     Content-Type: text/html; charset=UTF-8
-    Set-Cookie: BIGipServerpool_georisques_preventix_web_https=2031622316.47873.0000; path=/; Httponly; Secure
-    Set-Cookie: TS0167fac5=01ce77d60064113a20e7a6f3da65190944e431e11a9c13e1cdf588330fb0b034a96f3e4cb879a17fb99d41095791572240d0cedea6; Path=/
+    Set-Cookie: BIGipServerpool_georisques_preventix_web_https=2014845100.47873.0000; path=/; Httponly; Secure
+    Set-Cookie: TS0167fac5=01ce77d60024aa9c815d26df745a7031d9d8936d49e72f9523ed19ba1872a425813e496befe1f258093b0abf6c471dfe9221481aa1; Path=/
     &lt;!DOCTYPE html&gt;
     &lt;html lang="fr" data-fr-scheme="system"&gt;
     &lt;head&gt;
@@ -197,7 +178,7 @@
     &lt;script&gt;var _paq = _paq || [];(fu
   HTTPOptions: 
     HTTP/1.1 200 OK
-    Date: Thu, 14 Nov 2024 12:53:09 GMT
+    Date: Sat, 14 Dec 2024 13:51:26 GMT
     Allow: GET, POST
     Cache-Control: must-revalidate, no-cache, private
     Content-language: fr
@@ -210,8 +191,8 @@
     Content-Security-Policy: frame-ancestors 'self' 'virteem.com';
     Connection: close
     Content-Type: text/html; charset=UTF-8
-    Set-Cookie: BIGipServerpool_georisques_preventix_web_https=1998067884.47873.0000; path=/; Httponly; Secure
-    Set-Cookie: TS0167fac5=01ce77d6006bd5d13d32b0e850368d4bcd758c2513e7f3b48ec22814ca32e73122667ae31a2fcd63d3cac2cd1347d7f008f463ccf0; Path=/</pre>
+    Set-Cookie: BIGipServerpool_georisques_preventix_web_https=1981290668.47873.0000; path=/; Httponly; Secure
+    Set-Cookie: TS0167fac5=01ce77d600fbe22ddc973748485b345a38639d3ba0f5a80cbc40d4e5d118d0f5d63f686eebfee5e268105b1251cd37ec00efd271f3; Path=/</pre>
 </td></tr>
 </tbody>
 </table></div>
