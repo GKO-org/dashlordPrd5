@@ -1,13 +1,12 @@
-# Nmap 7.92 scan initiated Sat Dec 14 14:07:04 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln haut-conseil-egalite.gouv.fr
+# Nmap 7.92 scan initiated Tue Jan 14 13:41:24 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln haut-conseil-egalite.gouv.fr
 Nmap scan report for haut-conseil-egalite.gouv.fr (185.194.83.18)
-Host is up (0.13s latency).
+Host is up (0.079s latency).
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE    VERSION
 80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
 |_http-server-header: BigIP
 113/tcp closed ident
 443/tcp open   ssl/https
-|_http-trane-info: Problem with XML parsing of /evox/about
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.0 404 Not Found
@@ -16,15 +15,15 @@ PORT    STATE  SERVICE    VERSION
 |     ERROR
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     Date: Sat, 14 Dec 2024 14:07:26 GMT
+|     Date: Tue, 14 Jan 2025 13:41:43 GMT
 |     X-Outils-CS: 
 |     Vary: Cookie,Accept-Encoding
 |     Composed-By: SPIP 4.3.2 @ www.spip.net + https://https:/local/config.txt
 |     X-Spip-Cache: 86400
-|     Last-Modified: Sat, 14 Dec 2024 14:07:26 GMT
+|     Last-Modified: Tue, 14 Jan 2025 13:41:43 GMT
 |     Connection: close
 |     Content-Type: text/html; charset=utf-8
-|     Set-Cookie: BIGipServerpool-dgcs-hautconseilegalite2.cegedim.cloud-HTTP=!wopDLhH02niOUuJEb0fFdwp3a2v5liQUhxGQ9H5DA0jrd9t0WzGekz5Yrpfp3ewjsqVAjSENILBlih9lpN2ayzxM5EI=; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-dgcs-hautconseilegalite2.cegedim.cloud-HTTP=!xY0eh4NTmLr2lQtEb0fFdwp3a2v5lq8CaVI8wQVlQtRnXTwR/GymCjuxl5eHPV0+h9nhrPBzpTz6EaIaIGt9DRrUX58=; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 |     <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
@@ -43,17 +42,18 @@ PORT    STATE  SERVICE    VERSION
 |     Connection: Keep-Alive
 |     Content-Length: 9
 |_    ERROR
+|_http-trane-info: Problem with XML parsing of /evox/about
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=12/14%Time=675D911E%P=x86_64-alpine-linu
-SF:x-musl%r(GetRequest,2BA9,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sat,\x2014
-SF:\x20Dec\x202024\x2014:07:26\x20GMT\r\nX-Outils-CS:\x20\r\nVary:\x20Cook
-SF:ie,Accept-Encoding\r\nComposed-By:\x20SPIP\x204\.3\.2\x20@\x20www\.spip
-SF:\.net\x20\+\x20https://https:/local/config\.txt\r\nX-Spip-Cache:\x20864
-SF:00\r\nLast-Modified:\x20Sat,\x2014\x20Dec\x202024\x2014:07:26\x20GMT\r\
-SF:nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r
-SF:\nSet-Cookie:\x20BIGipServerpool-dgcs-hautconseilegalite2\.cegedim\.clo
-SF:ud-HTTP=!wopDLhH02niOUuJEb0fFdwp3a2v5liQUhxGQ9H5DA0jrd9t0WzGekz5Yrpfp3e
-SF:wjsqVAjSENILBlih9lpN2ayzxM5EI=;\x20path=/;\x20Httponly;\x20Secure\r\nSt
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=67866997%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,2903,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2014\
+SF:x20Jan\x202025\x2013:41:43\x20GMT\r\nX-Outils-CS:\x20\r\nVary:\x20Cooki
+SF:e,Accept-Encoding\r\nComposed-By:\x20SPIP\x204\.3\.2\x20@\x20www\.spip\
+SF:.net\x20\+\x20https://https:/local/config\.txt\r\nX-Spip-Cache:\x208640
+SF:0\r\nLast-Modified:\x20Tue,\x2014\x20Jan\x202025\x2013:41:43\x20GMT\r\n
+SF:Connection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\
+SF:nSet-Cookie:\x20BIGipServerpool-dgcs-hautconseilegalite2\.cegedim\.clou
+SF:d-HTTP=!xY0eh4NTmLr2lQtEb0fFdwp3a2v5lq8CaVI8wQVlQtRnXTwR/GymCjuxl5eHPV0
+SF:\+h9nhrPBzpTz6EaIaIGt9DRrUX58=;\x20path=/;\x20Httponly;\x20Secure\r\nSt
 SF:rict-Transport-Security:\x20max-age=31536000;\x20includeSubDomains\r\n\
 SF:r\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Tra
 SF:nsitional//EN\"\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitio
@@ -72,4 +72,4 @@ SF:Alive\r\nContent-Length:\x209\r\n\r\n400\x20ERROR");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sat Dec 14 14:09:41 2024 -- 1 IP address (1 host up) scanned in 156.92 seconds
+# Nmap done at Tue Jan 14 13:43:54 2025 -- 1 IP address (1 host up) scanned in 149.51 seconds
