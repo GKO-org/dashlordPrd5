@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sat Dec 14 14:04:56 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln harkis.gouv.fr
-Host: 160.92.148.78 (secure-ssl-dsaf-mutu-prod.as8677.net)	Status: Up
-Host: 160.92.148.78 (secure-ssl-dsaf-mutu-prod.as8677.net)	Ports: 80/open/tcp//ssl|http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|https///	Ignored State: closed (998)
-# Nmap done at Sat Dec 14 14:07:21 2024 -- 1 IP address (1 host up) scanned in 145.76 seconds
+# Nmap 7.92 scan initiated Tue Jan 14 13:41:52 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln harkis.gouv.fr
+Host: 217.70.184.55 (webredir.gandi.net)	Status: Up
+Host: 217.70.184.55 (webredir.gandi.net)	Ports: 80/open/tcp//http?///, 443/open/tcp//tcpwrapped///	Ignored State: filtered (998)
+# Nmap done at Tue Jan 14 13:42:16 2025 -- 1 IP address (1 host up) scanned in 24.24 seconds

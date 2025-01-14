@@ -1,70 +1,70 @@
 [
          {
               "id"           : "service",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "HTTP"
           }
 ,         {
               "id"           : "pre_128cipher",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "No 128 cipher limit bug"
+              "severity"     : "MEDIUM",
+              "finding"      : "128 cipher limit bug"
           }
 ,         {
               "id"           : "SSLv2",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "SSLv3",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_1",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_2",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "TLS1_3",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered with final"
           }
 ,         {
               "id"           : "ALPN",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "cipherlist_NULL",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -72,7 +72,7 @@
           }
 ,         {
               "id"           : "cipherlist_aNULL",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -80,7 +80,7 @@
           }
 ,         {
               "id"           : "cipherlist_EXPORT",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -88,7 +88,7 @@
           }
 ,         {
               "id"           : "cipherlist_LOW",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -96,7 +96,7 @@
           }
 ,         {
               "id"           : "cipherlist_3DES_IDEA",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-310",
@@ -104,7 +104,7 @@
           }
 ,         {
               "id"           : "cipherlist_OBSOLETED",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-310",
@@ -112,491 +112,470 @@
           }
 ,         {
               "id"           : "cipherlist_STRONG_NOFS",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "cipherlist_STRONG_FS",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
-              "id"           : "cipher_order-tls1_2",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "id"           : "cipher_order",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
+              "severity"     : "WARN",
+              "finding"      : "Could not determine server cipher order, no matching cipher in list found (pls report this): DHE-RSA-SEED-SHA:SEED-SHA:DES-CBC3-SHA:RC4-MD5:DES-CBC-SHA:RC4-SHA:AES128-SHA:AES128-SHA256:AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA:ECDH-RSA-DES-CBC3-SHA:ECDH-RSA-AES128-SHA:ECDH-RSA-AES256-SHA:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:DHE-DSS-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-GCM-SHA256:AES256-SHA256:ECDHE-RSA-DES-CBC3-SHA:ECDHE-RSA-AES128-SHA256:AES256-GCM-SHA384:AES128-GCM-SHA256:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-SHA256:ADH-AES256-GCM-SHA384:AECDH-AES128-SHA:ECDHE-RSA-RC4-SHA:ECDHE-ECDSA-AES128-SHA"
           }
 ,         {
-              "id"           : "cipherorder_TLSv1_2",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "id"           : "cipher-tls1_2_xc02c",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02c   ECDHE-ECDSA-AES256-GCM-SHA384     ECDH 256   AESGCM      256      TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02b",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02b   ECDHE-ECDSA-AES128-GCM-SHA256     ECDH 256   AESGCM      128      TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "supportedciphers_TLSv1_2",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384"
-          }
-,         {
-              "id"           : "cipher_order",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
+              "finding"      : "ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "FS",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "FS_ciphers",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA"
           }
 ,         {
               "id"           : "FS_ECDHE_curves",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "prime256v1 secp384r1"
+              "finding"      : "prime256v1"
           }
 ,         {
               "id"           : "TLS_extensions",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'key share/#51' 'supported versions/#43' 'extended master secret/#23'"
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'key share/#51' 'supported versions/#43' 'extended master secret/#23'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "no -- no lifetime advertised"
+              "finding"      : "valid for 300 seconds only (<daily)"
           }
 ,         {
               "id"           : "SSL_sessionID_support",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "yes"
           }
 ,         {
               "id"           : "sessionresumption_ticket",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "not supported"
-          }
-,         {
-              "id"           : "sessionresumption_ID",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "supported"
           }
 ,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
               "id"           : "TLS_timestamp",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "random"
           }
 ,         {
               "id"           : "certificate_compression",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "none"
           }
 ,         {
               "id"           : "clientAuth",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "none"
           }
 ,         {
               "id"           : "cert_numbers",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "1"
           }
 ,         {
               "id"           : "cert_signatureAlgorithm",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "SHA256 with RSA"
           }
 ,         {
               "id"           : "cert_keySize",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "RSA 2048 bits (exponent is 65537)"
+              "severity"     : "OK",
+              "finding"      : "EC 256 bits (curve P-256)"
           }
 ,         {
               "id"           : "cert_keyUsage",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Digital Signature, Key Encipherment"
+              "finding"      : "Digital Signature, Key Agreement"
           }
 ,         {
               "id"           : "cert_extKeyUsage",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLS Web Server Authentication"
+              "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
           }
 ,         {
               "id"           : "cert_serialNumber",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "235542D46FC839348B20F6285AE27C6C"
+              "finding"      : "0DB7978E7F06333E4F3F757E6D1009FF"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "16"
           }
 ,         {
               "id"           : "cert_fingerprintSHA1",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ADB0B0F1E83A8C5332C158CD9FA4DF6929876AF7"
+              "finding"      : "250FEEF6315993348FE426D6777F6D628CF78124"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "C75F3D52ADBA3401F1744447B58CF71470FBBFF93F6340D4A40D108FE079E138"
+              "finding"      : "82CF86CD2854AEDD30B8BE2A619DC07914BE0433D1ED80308B48B58955A76A7A"
           }
 ,         {
               "id"           : "cert",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "harkis.gouv.fr"
           }
 ,         {
               "id"           : "cert_commonName_wo_SNI",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "request w/o SNI didn't succeed"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "harkis.gouv.fr"
           }
 ,         {
-              "id"           : "cert_subjectAltName",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "harkis.gouv.fr www.harkis.gouv.fr"
-          }
-,         {
               "id"           : "cert_trust",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "Ok via SAN and CN (same w/o SNI)"
+              "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
               "id"           : "cert_chain_of_trust",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "passed."
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no"
           }
 ,         {
               "id"           : "cert_expirationStatus",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "102 >= 60 days"
+              "finding"      : "364 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-26 23:00"
+              "finding"      : "2025-01-13 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-03-26 22:59"
+              "finding"      : "2026-01-13 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "certificate has no extended life time according to browser forum"
           }
 ,         {
               "id"           : "cert_eTLS",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not present"
           }
 ,         {
               "id"           : "cert_crlDistributionPoints",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+              "finding"      : "--"
           }
 ,         {
               "id"           : "cert_ocspURL",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://ocsp.digicert.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "not offered"
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
           }
 ,         {
               "id"           : "cert_mustStapleExtension",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "--"
           }
 ,         {
               "id"           : "DNS_CAArecord",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "--"
           }
 ,         {
               "id"           : "certificate_transparency",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "yes (certificate extension)"
           }
 ,         {
               "id"           : "certs_countServer",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "2"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no"
           }
 ,         {
               "id"           : "cert_caIssuers",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Certigna Services CA (DHIMYOTIS from FR)"
+              "finding"      : "GandiCert (Gandi SAS from FR)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFeDCCBGCgAwIBAgIQC5tef2dzroxkMiFlfO5nwTANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0yNDA0MTcwMDAwMDBaFw0zNDA0MTYyMzU5NTlaMDUxCzAJBgNVBAYTAkZSMRIwEAYDVQQKEwlHYW5kaSBTQVMxEjAQBgNVBAMTCUdhbmRpQ2VydDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK49Qu5ro3pTKXIqtRxyGZaCbX9989lhB3aBDQyWLN99EjYcbuQNKwNrom/lkVOL7CqZMVsxXjCO+Vqho2VI2u87KaEYOrMn0K4gICbUJrho0LpDNeFkZwwOLvEFmfaGPugXdHm1iOHj/ACdVtO4c96jJsBXrPl107MmN/nMbZ8zbW/Lmx/3lrA9f0SpRqQz6FwoOe/BEn+52AzRJeEzUQgzI+nKzR9KxFBWiVRzMhU5c/NEE7QmWynOYMI/dPuUCkMhhmYftkQZCXXMORigQjt+IoO4PRkJrbJFD1JkQpkEIDZkxj5JgUsGqQUZoeiQh73v3ggp3xfUUDyMApI972ewc7S2PG9IKO9QNzjU2aFruEJbPJzfnWy6cZ/JtsASjyjdah6oNdNof/HSqyxcxw1ozD4ifRCAEYf7fId9SAwsut0Q92tECSbRUYMYdX1QqZD7teT40IQ4AaPWiXIru1MsyEKlEOULTBrXf1vl7PGJUoUo9+P5dOtFwo0iHdAONg8mO7/AWyPTTPJZDsxjq4aRcZiBzdwTRxbVhgZc3BrDYaDUg8nT6lnc3tQNMHuLNTLGLyfmWwWMRcjsn5MF0E9UkA8trEoeMIdCutolrVWsG7sagUMEBbZPSs9j+JLZXcfw3gfDLcpl2YKy78JU1/F6erjm1K+mJSY3eVqjp4RJAgMBAAGjggFWMIIBUjASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBS6u0aIRezdWisYxdFO7OM8BlJTrDAfBgNVHSMEGDAWgBROIlQgGJXm427mD/r6uRLtBhePOTAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMHYGCCsGAQUFBwEBBGowaDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEAGCCsGAQUFBzAChjRodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxSb290RzIuY3J0MEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RHMi5jcmwwEQYDVR0gBAowCDAGBgRVHSAAMA0GCSqGSIb3DQEBCwUAA4IBAQAqsQTCdbSSfPRpe+H+zWSok/VfzwhXviQwNiWZ9S93IRl47Yt9HGJn4YBBvLbmD2UgQc7snOKVGzStvt9J5/MhZzilji+dUhkdUtDZbUsfqy/Fii5AU/2RRXCRWS+6qljOGdpVeSGqqgI88IGOKILH/h7jtJtlHDpriwwKTpXl4FudKWZaqK2Wrz9Fz0jfyY1FbZhkv/dzjN29FQVaxmWr7cNqjKb+H9LuXvuTUxt/uFTzFZHMNw0+iM4Tn4vMVPwa3X02fZ8V1IVWxLcvbhLOEIes1tjdWRXnzDQNDhCJh18t83R8GBEMU3ZX3ZtTaY3iTEJczHfg5c8HflGcPZoZ\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
+              "finding"      : "3337D4E4B4EF6A94F04915D2E86B1F8F47A3C83667DA2519D9B95AE7270AFFE1"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2015-11-25 11:33"
+              "finding"      : "2024-04-17 00:00"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-11-22 11:33"
+              "finding"      : "2034-04-16 23:59"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "ok > 40 days"
           }
 ,         {
               "id"           : "intermediate_cert_chain <#1>",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Certigna Services CA <-- Certigna"
+              "finding"      : "GandiCert <-- DigiCert Global Root G2"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "intermediate certificate(s) is/are ok"
           }
 ,         {
               "id"           : "HTTP_status_code",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "HTTP header reply empty"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "No HTTP status code"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "200 OK ('/')"
+              "finding"      : "301 Moved Permanently ('/')"
           }
 ,         {
               "id"           : "HTTP_clock_skew",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+174 seconds from localtime"
-          }
-,         {
-              "id"           : "HTTP_headerTime",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1734185064"
-          }
-,         {
-              "id"           : "HTTP_headerAge",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "175 seconds"
+              "finding"      : "Got no HTTP time, maybe try different URL?"
           }
 ,         {
               "id"           : "HSTS",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "HPKP",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No support for HTTP Public Key Pinning"
           }
 ,         {
               "id"           : "banner_server",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No Server banner line in header, interesting!"
           }
 ,         {
               "id"           : "banner_application",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No application banner found"
           }
 ,         {
               "id"           : "cookie_count",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 at '/'"
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
           }
 ,         {
-              "id"           : "X-Frame-Options_multiple",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "id"           : "security_headers",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "Multiple X-Frame-Options headers. Using first header: SAMEORIGIN"
-          }
-,         {
-              "id"           : "X-Frame-Options",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "SAMEORIGIN"
-          }
-,         {
-              "id"           : "X-Content-Type-Options",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "nosniff"
-          }
-,         {
-              "id"           : "Content-Security-Policy",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "default-src https: 'unsafe-eval' 'unsafe-inline'; img-src 'self' data: https: http:; font-src 'self' data:; frame-ancestors 'self' https://www.harkis.gouv.fr;"
-          }
-,         {
-              "id"           : "X-XSS-Protection",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1; mode=block"
-          }
-,         {
-              "id"           : "Cache-Control",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "max-age=600, public"
+              "finding"      : "--"
           }
 ,         {
               "id"           : "banner_reverseproxy",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Varnish: 8672917 22731542X-Cache: HITX-Cache-Hits: 2"
+              "finding"      : "--"
           }
 ,         {
               "id"           : "heartbleed",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-0160",
@@ -605,7 +584,7 @@
           }
 ,         {
               "id"           : "CCS",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-0224",
@@ -614,16 +593,16 @@
           }
 ,         {
               "id"           : "ticketbleed",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-9244",
               "cwe"          : "CWE-200",
-              "finding"      : "no session ticket extension"
+              "finding"      : "not vulnerable"
           }
 ,         {
               "id"           : "ROBOT",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
@@ -632,7 +611,7 @@
           }
 ,         {
               "id"           : "secure_renego",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-310",
@@ -640,7 +619,7 @@
           }
 ,         {
               "id"           : "secure_client_renego",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2011-1473",
@@ -649,25 +628,25 @@
           }
 ,         {
               "id"           : "CRIME_TLS",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "WARN",
               "cve"          : "CVE-2012-4929",
               "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable"
+              "finding"      : "Check failed, couldn't connect"
           }
 ,         {
               "id"           : "BREACH",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "OK",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-3566",
@@ -676,14 +655,14 @@
           }
 ,         {
               "id"           : "fallback_SCSV",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "no protocol below TLS 1.2 offered"
           }
 ,         {
               "id"           : "SWEET32",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-2183 CVE-2016-6329",
@@ -692,7 +671,7 @@
           }
 ,         {
               "id"           : "FREAK",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2015-0204",
@@ -701,7 +680,7 @@
           }
 ,         {
               "id"           : "DROWN",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
@@ -710,16 +689,16 @@
           }
 ,         {
               "id"           : "DROWN_hint",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=C75F3D52ADBA3401F1744447B58CF71470FBBFF93F6340D4A40D108FE079E138"
+              "finding"      : "no RSA certificate, can't be used with SSLv2 elsewhere"
           }
 ,         {
               "id"           : "LOGJAM",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2015-4000",
@@ -728,7 +707,7 @@
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2015-4000",
@@ -737,7 +716,7 @@
           }
 ,         {
               "id"           : "BEAST",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2011-3389",
@@ -746,16 +725,16 @@
           }
 ,         {
               "id"           : "LUCKY13",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "LOW",
               "cve"          : "CVE-2013-0169",
               "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable"
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
           }
 ,         {
               "id"           : "winshock",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-6321",
@@ -764,7 +743,7 @@
           }
 ,         {
               "id"           : "RC4",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2013-2566 CVE-2015-2808",
@@ -773,331 +752,331 @@
           }
 ,         {
               "id"           : "clientsimulation-android_60",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_70",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_81",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_90",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_X",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_11",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_12",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-chrome_79_win10",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-chrome_101_win10",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-firefox_66_win81",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-firefox_100_win10",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_6_xp",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_win7",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_xp",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win7",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win81",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_winphone81",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win10",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-edge_15_win10",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-edge_101_win10_21h2",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_121_ios_122",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_130_osx_10146",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_154_osx_1231",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-java_7u25",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-java_8u161",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-java1102",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-java1703",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-go_1178",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-libressl_283",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
           }
 ,         {
               "id"           : "clientsimulation-openssl_102e",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_110l",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-openssl_111d",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_303",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-apple_mail_16_0",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-thunderbird_91_9",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "rating_spec",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
           }
 ,         {
               "id"           : "rating_doc",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
           }
 ,         {
               "id"           : "protocol_support_score",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "100"
           }
 ,         {
               "id"           : "protocol_support_score_weighted",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "30"
           }
 ,         {
               "id"           : "key_exchange_score",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "90"
           }
 ,         {
-              "id"           : "key_exchange_score_weighted",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "27"
-          }
-,         {
-              "id"           : "cipher_strength_score",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "60"
-          }
-,         {
               "id"           : "cipher_strength_score_weighted",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "24"
+              "finding"      : "36"
           }
 ,         {
               "id"           : "final_score",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "81"
+              "finding"      : "96"
           }
 ,         {
               "id"           : "overall_grade",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "A"
           }
 ,         {
               "id"           : "grade_cap_reason_1",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "Grade capped to A. HSTS is not offered"
           }
 ,         {
               "id"           : "scanTime",
-              "ip"           : "harkis.gouv.fr/160.92.148.78",
+              "ip"           : "harkis.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "59"
+              "finding"      : "55"
           }
 ]
