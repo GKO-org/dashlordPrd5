@@ -366,8 +366,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "68 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (37)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -380,7 +380,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-02-20 22:59"
           }
 ,         {
@@ -570,7 +570,7 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734184246"
+              "finding"      : "1736861452"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1170,6 +1170,6 @@
               "ip"           : "www.geoportail-urbanisme.gouv.fr/145.239.193.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "164"
+              "finding"      : "165"
           }
 ]
