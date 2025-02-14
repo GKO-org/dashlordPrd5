@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln igas.gouv.fr</pre>
-<p class="lead">Tue Jan 14 14:09:14 2025 – Tue Jan 14 14:12:03 2025<br>1 hosts scanned.
+<p class="lead">Fri Feb 14 14:02:11 2025 – Fri Feb 14 14:04:46 2025<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -111,30 +111,12 @@
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
+<td title="Service">tcpwrapped</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
-    HTTP/1.0 302 Moved Temporarily
-    Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
-    Connection: close
-    Content-Length: 0
-  GetRequest, HTTPOptions, RTSPRequest: 
-    HTTP/1.0 302 Moved Temporarily
-    Location: https:///
-    Connection: close
-    Content-Length: 0
-  SIPOptions: 
-    HTTP/1.0 302 Moved Temporarily
-    Location: https://sip:nm
-    Connection: close
-    Content-Length: 0</pre>
-</td></tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
 <tr class="active">
 <td>113</td>
 <td>tcp</td>
@@ -156,35 +138,19 @@
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
-    HTTP/1.1 400 Bad Request
-    Date: Tue, 14 Jan 2025 14:09:37 GMT
-    Content-Length: 226
-    Content-Type: text/html; charset=iso-8859-1
-    Age: 0
-    X-Cache: MISS
-    X-Cache-Hits: 0
-    Connection: close
-    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!a/xddhqCdLB8MS5Eb0fFdwp3a2v5ls8acxOdOBnJiR92lmwK4JO8S2zcYxwkpdaj5goto1Mtr8BAu1stWDc9GhV3Ik4=; path=/; Httponly; Secure
-    Strict-Transport-Security: max-age=31536000; includeSubDomains
-    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
-    &lt;html&gt;&lt;head&gt;
-    &lt;title&gt;400 Bad Request&lt;/title&gt;
-    &lt;/head&gt;&lt;body&gt;
-    &lt;h1&gt;Bad Request&lt;/h1&gt;
-    &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Tue, 14 Jan 2025 14:09:36 GMT
+    Date: Fri, 14 Feb 2025 14:02:30 GMT
+    Access-Control-Allow-Methods: GET, POST, OPTIONS
+    Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Control-Request-Method, Access-Control-Request-Headers
+    Access-Control-Allow-Credentials: true
     Content-Length: 226
     Content-Type: text/html; charset=iso-8859-1
     Age: 0
     X-Cache: MISS
     X-Cache-Hits: 0
     Connection: close
-    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!Fyi9fCgdazW9OPJEb0fFdwp3a2v5ltZMYfmFSR6DPP09XG/RH4CJhyZTOlrpLUSnNCpFD3wi4wVs44pncJg/kanAOHg=; path=/; Httponly; Secure
+    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!wsDK5ue3OpAC6e6LtQnM7MDO6tV7uFYKCsR8ft9zY3ROtCANftwFPFDdH/kuMfmbW8VxQ8470xjE4WucHQAa3ww838Y=; path=/; Httponly; Secure
     Strict-Transport-Security: max-age=31536000; includeSubDomains
     &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
     &lt;html&gt;&lt;head&gt;
@@ -193,17 +159,19 @@
     &lt;h1&gt;Bad Request&lt;/h1&gt;
     &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
     &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
   HTTPOptions: 
     HTTP/1.1 400 Bad Request
-    Date: Tue, 14 Jan 2025 14:09:36 GMT
+    Date: Fri, 14 Feb 2025 14:02:31 GMT
+    Access-Control-Allow-Methods: GET, POST, OPTIONS
+    Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Control-Request-Method, Access-Control-Request-Headers
+    Access-Control-Allow-Credentials: true
     Content-Length: 226
     Content-Type: text/html; charset=iso-8859-1
     Age: 0
     X-Cache: MISS
     X-Cache-Hits: 0
     Connection: close
-    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!6RXFYAM5lzGaaPxEb0fFdwp3a2v5lrhTgJzTkvZQEg88k8sRISeFaUgr8Z9ZXLwNrAL922hIrDhJEqPDQtHrj0kuGNY=; path=/; Httponly; Secure
+    Set-Cookie: BIGipServerpool-igas-production2.cegedim.cloud-TCP80=!Vm/7h1UtOLpREo6LtQnM7MDO6tV7uDskVk4M7S3UTw2eOE82t0iUhwqOhZWs35l/oZVGRx9T/W1uqi812wM7tE8Tphk=; path=/; Httponly; Secure
     Strict-Transport-Security: max-age=31536000; includeSubDomains
     &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
     &lt;html&gt;&lt;head&gt;
@@ -211,8 +179,7 @@
     &lt;/head&gt;&lt;body&gt;
     &lt;h1&gt;Bad Request&lt;/h1&gt;
     &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
-    &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;</pre>
+    &lt;/p&gt;</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -235,7 +202,7 @@
 <td>185.194.83.89 - igas.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
-<td>http</td>
+<td>tcpwrapped</td>
 <td></td>
 <td></td>
 <td></td>
